@@ -9,7 +9,6 @@ import json
 import os
 import wandb
 
-TUNING_PHASE = 2
 N_TRIALS = 16
 N_STARTUP_TRIALS = 5
 N_EPISODES = 1000
@@ -38,23 +37,16 @@ def sample_maddpg_params(trial: optuna.Trial) -> Dict[str, Any]:
     """Sampler for MADDPG hyperparameters."""
     params = {}
 
-    if TUNING_PHASE == 1:
-        params.update({
-            "H": trial.suggest_float("H", 0.02, 0.3, log=True),
-            "decay_rate": trial.suggest_float("decay_rate", 0.95, 0.99999),
-            "alpha": trial.suggest_float("alpha", 5e-6, 5e-4, log=True),
-            "beta": trial.suggest_float("beta", 5e-5, 5e-4, log=True),
-            "batch_size": trial.suggest_categorical("batch_size", [128, 256, 512, 1024]),
-            "learn_every": trial.suggest_categorical("learn_every", [5, 10, 20, 40, 80]),
-            "gamma": trial.suggest_float("gamma", 0.9, 0.995),
-            "tau": trial.suggest_float("tau", 5e-4, 0.05,log=True),
-        })
-
-    elif TUNING_PHASE == 2:
-        params.update({
-            "buffer_size": trial.suggest_categorical("buffer_size", [100_000, 200_000, 500_000, 1_000_000]),
-            "hidden_dim": trial.suggest_categorical("hidden_dim", [64, 128, 256, 512]),
-        })
+    params.update({
+        "H": trial.suggest_float("H", 0.02, 0.3, log=True),
+        "decay_rate": trial.suggest_float("decay_rate", 0.95, 0.99999),
+        "alpha": trial.suggest_float("alpha", 5e-6, 5e-4, log=True),
+        "beta": trial.suggest_float("beta", 5e-5, 5e-4, log=True),
+        "batch_size": trial.suggest_categorical("batch_size", [128, 256, 512, 1024]),
+        "learn_every": trial.suggest_categorical("learn_every", [5, 10, 20, 40, 80]),
+        "gamma": trial.suggest_float("gamma", 0.9, 0.995),
+        "tau": trial.suggest_float("tau", 5e-4, 0.05,log=True),
+    })
 
     for key, val in params.items():
         trial.set_user_attr(key, val)
