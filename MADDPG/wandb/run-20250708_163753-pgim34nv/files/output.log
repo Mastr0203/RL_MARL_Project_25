@@ -1,0 +1,40 @@
+Test 0 score: 408.25531005859375
+Test 1 score: 495.84783935546875
+Test 2 score: 236.5133514404297
+Test 3 score: 460.3450012207031
+Test 4 score: 417.1426696777344
+Test 5 score: 105.3021240234375
+Test 6 score: 349.56689453125
+Test 7 score: 526.25634765625
+Test 8 score: 311.71343994140625
+Test 9 score: 264.1846618652344
+Test 10 score: 301.6545715332031
+Test 11 score: 99.3211669921875
+Test 12 score: 471.1908874511719
+Test 13 score: 339.5352478027344
+Test 14 score: 608.9954223632812
+Test 15 score: 289.7004699707031
+Test 16 score: 399.995849609375
+Test 17 score: 458.04779052734375
+Test 18 score: 364.5872497558594
+Test 19 score: 413.9350891113281
+Test 20 score: 79.98188781738281
+Test 21 score: 266.5109558105469
+Test 22 score: 383.60284423828125
+Test 23 score: 332.64227294921875
+Test 24 score: 520.0223388671875
+Test 25 score: 548.5850830078125
+Test 26 score: 520.990234375
+/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/numpy/_core/fromnumeric.py:3904: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/numpy/_core/_methods.py:147: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/numpy/_core/_methods.py:227: RuntimeWarning: Degrees of freedom <= 0 for slice
+  ret = _var(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/numpy/_core/_methods.py:184: RuntimeWarning: invalid value encountered in divide
+  arrmean = um.true_divide(arrmean, div, out=arrmean,
+/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/numpy/_core/_methods.py:219: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+Test 27 score: 495.4459228515625
+Test 28 score: 470.6510925292969
+Test 29 score: 445.2030029296875

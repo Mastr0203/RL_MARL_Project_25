@@ -1,0 +1,15 @@
+{"time":"2025-07-07T16:09:11.072425+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/wandb/run-20250707_160911-pbk8cjps/logs/debug-core.log"}
+{"time":"2025-07-07T16:09:11.367388+02:00","level":"INFO","msg":"created new stream","id":"pbk8cjps"}
+{"time":"2025-07-07T16:09:11.367595+02:00","level":"INFO","msg":"stream: started","id":"pbk8cjps"}
+{"time":"2025-07-07T16:09:11.367643+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"pbk8cjps"}
+{"time":"2025-07-07T16:09:11.367793+02:00","level":"INFO","msg":"handler: started","stream_id":"pbk8cjps"}
+{"time":"2025-07-07T16:09:11.367823+02:00","level":"INFO","msg":"sender: started","stream_id":"pbk8cjps"}
+{"time":"2025-07-07T16:09:11.717783+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-07T16:14:08.966114+02:00","level":"INFO","msg":"stream: closing","id":"pbk8cjps"}
+{"time":"2025-07-07T16:14:08.966974+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-07T16:14:08.967196+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-07T16:14:09.595602+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-07T16:14:09.854304+02:00","level":"INFO","msg":"sender: closed","stream_id":"pbk8cjps"}
+{"time":"2025-07-07T16:14:09.854329+02:00","level":"INFO","msg":"handler: closed","stream_id":"pbk8cjps"}
+{"time":"2025-07-07T16:14:09.855234+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pbk8cjps"}
+{"time":"2025-07-07T16:14:09.855293+02:00","level":"INFO","msg":"stream: closed","id":"pbk8cjps"}

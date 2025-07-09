@@ -1,0 +1,70 @@
+[32m[I 2025-07-04 12:25:57,136][0m A new study created in RDB with name: maddpg_balance_tuning_wandb102[0m
+[33m[W 2025-07-04 12:25:57,168][0m Trial 0 failed with parameters: {'H': 0.1741157207391866, 'decay_rate': 0.9759768153965633, 'alpha': 6.2120745984711195e-06, 'beta': 0.0004390425532766291, 'batch_size': 1024, 'learn_every': 5, 'gamma': 0.9402633045049786, 'tau': 0.04212211906264055, 'ensemble_policy': 3} because of the following error: AssertionError().[0m
+Traceback (most recent call last):
+  File "/Users/lilshoe/miniconda3/envs/mldl/lib/python3.11/site-packages/optuna/study/_optimize.py", line 201, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/tuning.py", line 77, in objective
+    env = make_env(
+          ^^^^^^^^^
+  File "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/vmas/make_env.py", line 79, in make_env
+    env = Environment(
+          ^^^^^^^^^^^^
+  File "/Users/lilshoe/miniconda3/envs/mldl/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/vmas/simulator/environment/environment.py", line 103, in __init__
+    self.action_space = self.get_action_space()
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/vmas/simulator/environment/environment.py", line 433, in get_action_space
+    [self.get_agent_action_space(agent) for agent in self.agents]
+  File "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/vmas/simulator/environment/environment.py", line 433, in <listcomp>
+    [self.get_agent_action_space(agent) for agent in self.agents]
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/vmas/simulator/environment/environment.py", line 475, in get_agent_action_space
+    return spaces.Box(
+           ^^^^^^^^^^^
+  File "/Users/lilshoe/miniconda3/envs/mldl/lib/python3.11/site-packages/gym/spaces/box.py", line 23, in __init__
+    assert np.isscalar(low) and np.isscalar(high)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+[33m[W 2025-07-04 12:25:57,169][0m Trial 0 failed with value None.[0m
+Traceback (most recent call last):
+  File "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/tuning.py", line 148, in <module>
+    study.optimize(objective, n_trials=N_TRIALS, timeout=3600)
+  File "/Users/lilshoe/miniconda3/envs/mldl/lib/python3.11/site-packages/optuna/study/study.py", line 489, in optimize
+    _optimize(
+  File "/Users/lilshoe/miniconda3/envs/mldl/lib/python3.11/site-packages/optuna/study/_optimize.py", line 64, in _optimize
+    _optimize_sequential(
+  File "/Users/lilshoe/miniconda3/envs/mldl/lib/python3.11/site-packages/optuna/study/_optimize.py", line 161, in _optimize_sequential
+    frozen_trial = _run_trial(study, func, catch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lilshoe/miniconda3/envs/mldl/lib/python3.11/site-packages/optuna/study/_optimize.py", line 253, in _run_trial
+    raise func_err
+  File "/Users/lilshoe/miniconda3/envs/mldl/lib/python3.11/site-packages/optuna/study/_optimize.py", line 201, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/tuning.py", line 77, in objective
+    env = make_env(
+          ^^^^^^^^^
+  File "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/vmas/make_env.py", line 79, in make_env
+    env = Environment(
+          ^^^^^^^^^^^^
+  File "/Users/lilshoe/miniconda3/envs/mldl/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/vmas/simulator/environment/environment.py", line 103, in __init__
+    self.action_space = self.get_action_space()
+                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/vmas/simulator/environment/environment.py", line 433, in get_action_space
+    [self.get_agent_action_space(agent) for agent in self.agents]
+  File "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/vmas/simulator/environment/environment.py", line 433, in <listcomp>
+    [self.get_agent_action_space(agent) for agent in self.agents]
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/vmas/simulator/environment/environment.py", line 475, in get_agent_action_space
+    return spaces.Box(
+           ^^^^^^^^^^^
+  File "/Users/lilshoe/miniconda3/envs/mldl/lib/python3.11/site-packages/gym/spaces/box.py", line 23, in __init__
+    assert np.isscalar(low) and np.isscalar(high)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

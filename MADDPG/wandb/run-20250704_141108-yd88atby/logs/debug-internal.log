@@ -1,0 +1,15 @@
+{"time":"2025-07-04T14:11:08.688678+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/wandb/run-20250704_141108-yd88atby/logs/debug-core.log"}
+{"time":"2025-07-04T14:11:09.033678+02:00","level":"INFO","msg":"created new stream","id":"yd88atby"}
+{"time":"2025-07-04T14:11:09.033715+02:00","level":"INFO","msg":"stream: started","id":"yd88atby"}
+{"time":"2025-07-04T14:11:09.033725+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"yd88atby"}
+{"time":"2025-07-04T14:11:09.033805+02:00","level":"INFO","msg":"handler: started","stream_id":"yd88atby"}
+{"time":"2025-07-04T14:11:09.03382+02:00","level":"INFO","msg":"sender: started","stream_id":"yd88atby"}
+{"time":"2025-07-04T14:11:09.420075+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-04T14:11:09.729779+02:00","level":"INFO","msg":"stream: closing","id":"yd88atby"}
+{"time":"2025-07-04T14:11:09.898524+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-04T14:11:09.898557+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-04T14:11:10.62486+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-04T14:11:10.900818+02:00","level":"INFO","msg":"sender: closed","stream_id":"yd88atby"}
+{"time":"2025-07-04T14:11:10.900828+02:00","level":"INFO","msg":"handler: closed","stream_id":"yd88atby"}
+{"time":"2025-07-04T14:11:10.900829+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yd88atby"}
+{"time":"2025-07-04T14:11:10.901163+02:00","level":"INFO","msg":"stream: closed","id":"yd88atby"}

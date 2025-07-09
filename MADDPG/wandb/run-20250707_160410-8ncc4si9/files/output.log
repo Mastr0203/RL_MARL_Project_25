@@ -1,0 +1,33 @@
+--------------------------------------------------
+Episode: 100, average_score: -175.27, delta: -175.27
+--------------------------------------------------
+--------------------------------------------------
+Episode: 200, average_score: -897.13, delta: -721.86
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/main.py", line 52, in <module>
+    main()
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/main.py", line 44, in main
+    training_result = train(
+                      ^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/Train.py", line 109, in train
+    maddpg_agents.learn(memory)
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/MADDPG.py", line 101, in learn
+    target_action = agent.target_actor[actor_idx].forward(new_state).detach()          #Compute the new action a' through the target network (needed to compute the Q-value)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/Networks.py", line 55, in forward
+    pi = T.tanh(self.pi(x))             #Deterministic policy, you take a value (vector of values), not a space of probability
+                ^^^^^^^^^^
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+                                        ^^^^^^^^^
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1927, in __getattr__
+    def __getattr__(self, name: str) -> Union[Tensor, "Module"]:
+
+KeyboardInterrupt

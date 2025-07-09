@@ -1,0 +1,44 @@
+{
+  "os": "macOS-14.4.1-arm64-arm-64bit",
+  "python": "CPython 3.11.11",
+  "startedAt": "2025-07-06T20:32:06.626098Z",
+  "program": "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/tuning.py",
+  "codePath": "tuning.py",
+  "git": {
+    "remote": "https://github.com/LucianoScarpino/RL_Multi_Agent.git",
+    "commit": "367b4c8740efc4a1fd5c4926c0e595b11a555c2e"
+  },
+  "email": "brianmorales019@gmail.com",
+  "root": "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent",
+  "host": "Air-di-Brian.wind3.hub",
+  "executable": "/Users/brian/miniconda3/envs/RL/bin/python",
+  "codePathLocal": "tuning.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "341892636672"
+    },
+    "/System/Volumes/Data": {
+      "total": "494384795648",
+      "used": "341892636672"
+    }
+  },
+  "memory": {
+    "total": "8589934592"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  },
+  "apple": {
+    "name": "Apple M1",
+    "ecpuCores": 4,
+    "pcpuCores": 4,
+    "gpuCores": 8,
+    "memoryGb": 8,
+    "swapTotalBytes": "12884901888",
+    "ramTotalBytes": "8589934592"
+  }
+}

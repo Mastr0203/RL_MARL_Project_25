@@ -1,0 +1,24 @@
+Test 0 score: 392.63006591796875
+Test 1 score: 287.24566650390625
+Test 2 score: 420.01397705078125
+Test 3 score: 474.1392517089844
+Traceback (most recent call last):
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/test.py", line 88, in <module>
+    test_score = test(env, maddpg_agents, episode)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/test.py", line 20, in test
+    env.render(mode="human")
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/vmas/simulator/environment/environment.py", line 882, in render
+    self.viewer.set_bounds(
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/vmas/simulator/rendering.py", line 130, in set_bounds
+    self.transform = Transform(
+                     ^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/vmas/simulator/rendering.py", line 223, in __init__
+    self.set_translation(*translation)
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/vmas/simulator/rendering.py", line 238, in set_translation
+    def set_translation(self, newx, newy):
+
+KeyboardInterrupt

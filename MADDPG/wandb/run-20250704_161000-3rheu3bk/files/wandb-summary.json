@@ -1,0 +1,1 @@
+{"param/batch_size":512,"_wandb":{"runtime":151904},"param/alpha":0.0003867588728397294,"param/tau":0.04575136071785825,"param/learn_every":5,"param/H":0.17828642224468721,"param/decay_rate":0.976863002309456,"best_reward":0,"_step":119,"_runtime":151904.904676,"trial":119,"param/beta":0.0003869646638616859,"_timestamp":1.7517901054886348e+09,"param/gamma":0.9422521032405541}

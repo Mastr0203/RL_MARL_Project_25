@@ -1,0 +1,16 @@
+{"time":"2025-07-04T13:08:53.039762+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/wandb/run-20250704_130853-mysu3wse/logs/debug-core.log"}
+{"time":"2025-07-04T13:08:53.317204+02:00","level":"INFO","msg":"created new stream","id":"mysu3wse"}
+{"time":"2025-07-04T13:08:53.317243+02:00","level":"INFO","msg":"stream: started","id":"mysu3wse"}
+{"time":"2025-07-04T13:08:53.317246+02:00","level":"INFO","msg":"handler: started","stream_id":"mysu3wse"}
+{"time":"2025-07-04T13:08:53.31737+02:00","level":"INFO","msg":"sender: started","stream_id":"mysu3wse"}
+{"time":"2025-07-04T13:08:53.317476+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"mysu3wse"}
+{"time":"2025-07-04T13:08:53.547791+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-04T13:40:40.588361+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.16:59894->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-04T14:10:24.193169+02:00","level":"INFO","msg":"stream: closing","id":"mysu3wse"}
+{"time":"2025-07-04T14:10:24.193727+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-04T14:10:24.193832+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-04T14:10:24.833099+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-04T14:10:25.08079+02:00","level":"INFO","msg":"handler: closed","stream_id":"mysu3wse"}
+{"time":"2025-07-04T14:10:25.080792+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"mysu3wse"}
+{"time":"2025-07-04T14:10:25.080904+02:00","level":"INFO","msg":"sender: closed","stream_id":"mysu3wse"}
+{"time":"2025-07-04T14:10:25.081175+02:00","level":"INFO","msg":"stream: closed","id":"mysu3wse"}

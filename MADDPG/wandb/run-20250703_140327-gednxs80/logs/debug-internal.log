@@ -1,0 +1,15 @@
+{"time":"2025-07-03T14:03:27.051037+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/wandb/run-20250703_140327-gednxs80/logs/debug-core.log"}
+{"time":"2025-07-03T14:03:27.332444+02:00","level":"INFO","msg":"created new stream","id":"gednxs80"}
+{"time":"2025-07-03T14:03:27.332509+02:00","level":"INFO","msg":"stream: started","id":"gednxs80"}
+{"time":"2025-07-03T14:03:27.332543+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"gednxs80"}
+{"time":"2025-07-03T14:03:27.332858+02:00","level":"INFO","msg":"sender: started","stream_id":"gednxs80"}
+{"time":"2025-07-03T14:03:27.332862+02:00","level":"INFO","msg":"handler: started","stream_id":"gednxs80"}
+{"time":"2025-07-03T14:03:27.636774+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-03T14:03:30.090231+02:00","level":"INFO","msg":"stream: closing","id":"gednxs80"}
+{"time":"2025-07-03T14:03:30.091155+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-03T14:03:30.09123+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-03T14:03:30.728338+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-03T14:03:31.020417+02:00","level":"INFO","msg":"sender: closed","stream_id":"gednxs80"}
+{"time":"2025-07-03T14:03:31.021457+02:00","level":"INFO","msg":"handler: closed","stream_id":"gednxs80"}
+{"time":"2025-07-03T14:03:31.021488+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gednxs80"}
+{"time":"2025-07-03T14:03:31.021549+02:00","level":"INFO","msg":"stream: closed","id":"gednxs80"}

@@ -1,0 +1,44 @@
+{
+  "os": "macOS-15.5-arm64-arm-64bit",
+  "python": "CPython 3.11.11",
+  "startedAt": "2025-07-06T19:49:03.189770Z",
+  "program": "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/main.py",
+  "codePath": "main.py",
+  "git": {
+    "remote": "https://github.com/LucianoScarpino/RL_Multi_Agent.git",
+    "commit": "367b4c8740efc4a1fd5c4926c0e595b11a555c2e"
+  },
+  "email": "brianmorales019@gmail.com",
+  "root": "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia",
+  "host": "MACBOOK-PRO.station",
+  "executable": "/Users/lilshoe/miniconda3/envs/mldl/bin/python",
+  "codePathLocal": "main.py",
+  "cpu_count": 12,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "191112302592"
+    },
+    "/System/Volumes/Data": {
+      "total": "494384795648",
+      "used": "191112302592"
+    }
+  },
+  "memory": {
+    "total": "25769803776"
+  },
+  "cpu": {
+    "count": 12,
+    "countLogical": 12
+  },
+  "apple": {
+    "name": "Apple M4 Pro",
+    "ecpuCores": 4,
+    "pcpuCores": 8,
+    "gpuCores": 16,
+    "memoryGb": 24,
+    "swapTotalBytes": "2147483648",
+    "ramTotalBytes": "25769803776"
+  }
+}

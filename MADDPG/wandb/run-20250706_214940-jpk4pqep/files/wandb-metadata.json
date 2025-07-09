@@ -1,0 +1,16 @@
+{
+  "os": "macOS-15.5-arm64-arm-64bit",
+  "python": "CPython 3.11.11",
+  "startedAt": "2025-07-06T19:49:40.198171Z",
+  "program": "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/main.py",
+  "codePath": "main.py",
+  "git": {
+    "remote": "https://github.com/LucianoScarpino/RL_Multi_Agent.git",
+    "commit": "367b4c8740efc4a1fd5c4926c0e595b11a555c2e"
+  },
+  "email": "brianmorales019@gmail.com",
+  "root": "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia",
+  "host": "MACBOOK-PRO.station",
+  "executable": "/Users/lilshoe/miniconda3/envs/mldl/bin/python",
+  "codePathLocal": "main.py"
+}

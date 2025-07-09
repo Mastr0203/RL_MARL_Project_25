@@ -1,0 +1,174 @@
+[32m[I 2025-07-03 14:03:27,976][0m A new study created in RDB with name: maddpg_balance_tuning_wandb100[0m
+Trial 0 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,039][0m Trial 0 failed with parameters: {'H': 0.420635776999815, 'decay_rate': 0.9922873823185345, 'alpha': 9.796598004929859e-06, 'beta': 0.0004000670641025722, 'batch_size': 1024, 'learn_every': 50, 'gamma': 0.8387221756165925, 'tau': 0.04451947843457281} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,039][0m Trial 0 failed with value nan.[0m
+Trial 1 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,068][0m Trial 1 failed with parameters: {'H': 0.05781416382417665, 'decay_rate': 0.9984378376481395, 'alpha': 8.097586483516801e-05, 'beta': 0.0007281946901208339, 'batch_size': 1024, 'learn_every': 200, 'gamma': 0.8246319365896543, 'tau': 0.08121264456305217} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,068][0m Trial 1 failed with value nan.[0m
+Trial 2 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,094][0m Trial 2 failed with parameters: {'H': 0.05250800013051544, 'decay_rate': 0.9944295438804541, 'alpha': 1.843232275899823e-06, 'beta': 0.00021626843288247472, 'batch_size': 256, 'learn_every': 200, 'gamma': 0.841864497280881, 'tau': 0.03234017089485786} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,094][0m Trial 2 failed with value nan.[0m
+Trial 3 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,118][0m Trial 3 failed with parameters: {'H': 0.15053170414698774, 'decay_rate': 0.9995452407452373, 'alpha': 0.00038808140888553077, 'beta': 0.0006142688126529702, 'batch_size': 128, 'learn_every': 200, 'gamma': 0.8403664237879247, 'tau': 0.07747772517891194} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,118][0m Trial 3 failed with value nan.[0m
+Trial 4 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,143][0m Trial 4 failed with parameters: {'H': 0.10315545423007214, 'decay_rate': 0.9945053806204506, 'alpha': 3.274798156060044e-05, 'beta': 0.00021762542385492847, 'batch_size': 64, 'learn_every': 50, 'gamma': 0.9052281619191231, 'tau': 0.03386633890682451} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,143][0m Trial 4 failed with value nan.[0m
+Trial 5 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,167][0m Trial 5 failed with parameters: {'H': 0.014446558374290477, 'decay_rate': 0.9935044507213243, 'alpha': 0.00029901873949661457, 'beta': 0.0010623314884941224, 'batch_size': 256, 'learn_every': 200, 'gamma': 0.9910844945584729, 'tau': 0.04401024037182212} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,168][0m Trial 5 failed with value nan.[0m
+Trial 6 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,191][0m Trial 6 failed with parameters: {'H': 0.07943054089449572, 'decay_rate': 0.993665272461389, 'alpha': 0.00010011334042093705, 'beta': 0.000839502344622723, 'batch_size': 64, 'learn_every': 400, 'gamma': 0.8187596629205242, 'tau': 0.02213620469198449} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,191][0m Trial 6 failed with value nan.[0m
+Trial 7 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,215][0m Trial 7 failed with parameters: {'H': 0.12202963216559236, 'decay_rate': 0.9929152546128933, 'alpha': 4.531228229219691e-06, 'beta': 0.0020746905008549553, 'batch_size': 128, 'learn_every': 100, 'gamma': 0.8121768816530412, 'tau': 0.040314274730523035} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,215][0m Trial 7 failed with value nan.[0m
+Trial 8 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,238][0m Trial 8 failed with parameters: {'H': 0.08717137457025542, 'decay_rate': 0.9952185378500141, 'alpha': 3.145571317969026e-05, 'beta': 0.0021586763763074028, 'batch_size': 512, 'learn_every': 100, 'gamma': 0.9832825048909898, 'tau': 0.01835319526196255} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,238][0m Trial 8 failed with value nan.[0m
+Trial 9 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,261][0m Trial 9 failed with parameters: {'H': 0.021471501757095703, 'decay_rate': 0.9987763715449879, 'alpha': 8.597378526683006e-06, 'beta': 1.5697111717520128e-05, 'batch_size': 64, 'learn_every': 400, 'gamma': 0.8059056690985469, 'tau': 0.058195948387351135} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,261][0m Trial 9 failed with value nan.[0m
+Trial 10 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,284][0m Trial 10 failed with parameters: {'H': 0.46985511514271305, 'decay_rate': 0.995233467948839, 'alpha': 0.00020209513759394102, 'beta': 0.0002773018163393524, 'batch_size': 1024, 'learn_every': 50, 'gamma': 0.970617307811848, 'tau': 0.03753615977884843} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,284][0m Trial 10 failed with value nan.[0m
+Trial 11 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,307][0m Trial 11 failed with parameters: {'H': 0.10698502456496874, 'decay_rate': 0.9934985507431339, 'alpha': 1.857843140785161e-05, 'beta': 0.0008278604220449153, 'batch_size': 512, 'learn_every': 50, 'gamma': 0.8384120074282418, 'tau': 0.08772962881442055} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,307][0m Trial 11 failed with value nan.[0m
+Trial 12 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,331][0m Trial 12 failed with parameters: {'H': 0.1035685988115814, 'decay_rate': 0.9961604838095818, 'alpha': 4.276936402749456e-05, 'beta': 3.515880991528118e-05, 'batch_size': 512, 'learn_every': 200, 'gamma': 0.8855623212184652, 'tau': 0.0627637052366511} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,331][0m Trial 12 failed with value nan.[0m
+Trial 13 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,354][0m Trial 13 failed with parameters: {'H': 0.10049064426610108, 'decay_rate': 0.9929582588553838, 'alpha': 2.0221452591141653e-06, 'beta': 0.001209042943917207, 'batch_size': 512, 'learn_every': 100, 'gamma': 0.926685774113302, 'tau': 0.005042178106202954} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,354][0m Trial 13 failed with value nan.[0m
+Trial 14 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,377][0m Trial 14 failed with parameters: {'H': 0.1808612422610442, 'decay_rate': 0.9917778408822416, 'alpha': 6.686374857004566e-06, 'beta': 6.348196817854452e-05, 'batch_size': 512, 'learn_every': 100, 'gamma': 0.9392551497918397, 'tau': 0.09293160502114735} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,377][0m Trial 14 failed with value nan.[0m
+Trial 15 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,400][0m Trial 15 failed with parameters: {'H': 0.26545222006243874, 'decay_rate': 0.9909112657401488, 'alpha': 9.723238088308494e-05, 'beta': 4.4418418115849e-05, 'batch_size': 1024, 'learn_every': 100, 'gamma': 0.8113073997556774, 'tau': 0.044468703260574484} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,400][0m Trial 15 failed with value nan.[0m
+Trial 16 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,425][0m Trial 16 failed with parameters: {'H': 0.02882140756650473, 'decay_rate': 0.9942210124071666, 'alpha': 0.0008187635820011838, 'beta': 0.007861715052537037, 'batch_size': 128, 'learn_every': 200, 'gamma': 0.9602032408552839, 'tau': 0.08552819824735049} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,425][0m Trial 16 failed with value nan.[0m
+Trial 17 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,449][0m Trial 17 failed with parameters: {'H': 0.018988395841398664, 'decay_rate': 0.9917111953911288, 'alpha': 1.921909549752809e-06, 'beta': 0.0016925871896915155, 'batch_size': 1024, 'learn_every': 200, 'gamma': 0.8169339086177949, 'tau': 0.009113794902613805} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,449][0m Trial 17 failed with value nan.[0m
+Trial 18 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,471][0m Trial 18 failed with parameters: {'H': 0.01881920098539508, 'decay_rate': 0.9993938721576163, 'alpha': 2.5146965570842628e-05, 'beta': 5.603794986169175e-05, 'batch_size': 1024, 'learn_every': 200, 'gamma': 0.9614730334459541, 'tau': 0.04536463535639635} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,471][0m Trial 18 failed with value nan.[0m
+Trial 19 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,494][0m Trial 19 failed with parameters: {'H': 0.14383559193693832, 'decay_rate': 0.9950167007819811, 'alpha': 0.0008107827435372925, 'beta': 3.404186584980596e-05, 'batch_size': 64, 'learn_every': 200, 'gamma': 0.9553703425500703, 'tau': 0.03308573407463725} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,494][0m Trial 19 failed with value nan.[0m
+Trial 20 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,517][0m Trial 20 failed with parameters: {'H': 0.05981986693315604, 'decay_rate': 0.9907768455789557, 'alpha': 8.793815410481551e-05, 'beta': 3.990883884970441e-05, 'batch_size': 256, 'learn_every': 50, 'gamma': 0.9483641741175947, 'tau': 0.019495090945988326} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,517][0m Trial 20 failed with value nan.[0m
+Trial 21 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,541][0m Trial 21 failed with parameters: {'H': 0.2035948152135579, 'decay_rate': 0.9983889265236714, 'alpha': 2.183309186144539e-06, 'beta': 7.523551359263539e-05, 'batch_size': 128, 'learn_every': 50, 'gamma': 0.935651931300806, 'tau': 0.07380974476257911} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,541][0m Trial 21 failed with value nan.[0m
+Trial 22 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,564][0m Trial 22 failed with parameters: {'H': 0.017866996671939462, 'decay_rate': 0.9947695975190981, 'alpha': 4.999523826914914e-05, 'beta': 2.8511212855015123e-05, 'batch_size': 1024, 'learn_every': 50, 'gamma': 0.9019203175168764, 'tau': 0.09917630826706914} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,564][0m Trial 22 failed with value nan.[0m
+Trial 23 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,587][0m Trial 23 failed with parameters: {'H': 0.47430482244134625, 'decay_rate': 0.9912643203233713, 'alpha': 1.9042754612282518e-06, 'beta': 0.005183061604640225, 'batch_size': 128, 'learn_every': 400, 'gamma': 0.8344550675507821, 'tau': 0.07186090241659605} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,587][0m Trial 23 failed with value nan.[0m
+Trial 24 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,609][0m Trial 24 failed with parameters: {'H': 0.3519766229413242, 'decay_rate': 0.9999448145108131, 'alpha': 4.225422099704352e-05, 'beta': 9.244932967653475e-05, 'batch_size': 1024, 'learn_every': 100, 'gamma': 0.9157438548042756, 'tau': 0.014271447725242052} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,610][0m Trial 24 failed with value nan.[0m
+Trial 25 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,633][0m Trial 25 failed with parameters: {'H': 0.2017698211684834, 'decay_rate': 0.9917057184819131, 'alpha': 5.605800525027039e-05, 'beta': 0.00033230227213889907, 'batch_size': 512, 'learn_every': 100, 'gamma': 0.8708286879059135, 'tau': 0.08418329421778153} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,633][0m Trial 25 failed with value nan.[0m
+Trial 26 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,657][0m Trial 26 failed with parameters: {'H': 0.01656051761467388, 'decay_rate': 0.9931992946603256, 'alpha': 5.250126176750733e-06, 'beta': 1.8829971610341555e-05, 'batch_size': 1024, 'learn_every': 200, 'gamma': 0.9791507287991619, 'tau': 0.034393133017168356} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,657][0m Trial 26 failed with value nan.[0m
+Trial 27 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,680][0m Trial 27 failed with parameters: {'H': 0.0869367186109072, 'decay_rate': 0.9900186702946524, 'alpha': 1.1465204281247755e-05, 'beta': 5.739012130258968e-05, 'batch_size': 512, 'learn_every': 100, 'gamma': 0.8518859205358098, 'tau': 0.031008531227129925} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,680][0m Trial 27 failed with value nan.[0m
+Trial 28 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,703][0m Trial 28 failed with parameters: {'H': 0.015624251108327377, 'decay_rate': 0.9942969878214252, 'alpha': 9.752029802851885e-06, 'beta': 0.0003596078212597791, 'batch_size': 64, 'learn_every': 400, 'gamma': 0.9303254155348804, 'tau': 0.08708887972580874} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,703][0m Trial 28 failed with value nan.[0m
+Trial 29 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,726][0m Trial 29 failed with parameters: {'H': 0.14219303247242873, 'decay_rate': 0.997183235647171, 'alpha': 4.704572020258492e-06, 'beta': 0.0007073683038053352, 'batch_size': 64, 'learn_every': 400, 'gamma': 0.8789593098272132, 'tau': 0.022167022322652125} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,726][0m Trial 29 failed with value nan.[0m
+Trial 30 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,749][0m Trial 30 failed with parameters: {'H': 0.018431925705131216, 'decay_rate': 0.9904217715376384, 'alpha': 0.00013157720078391715, 'beta': 0.00979608676609479, 'batch_size': 256, 'learn_every': 400, 'gamma': 0.94916250230291, 'tau': 0.00401226025174717} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,749][0m Trial 30 failed with value nan.[0m
+Trial 31 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,772][0m Trial 31 failed with parameters: {'H': 0.14510955954660384, 'decay_rate': 0.9945089461384286, 'alpha': 2.4775054793263516e-05, 'beta': 0.00010433961695131155, 'batch_size': 256, 'learn_every': 200, 'gamma': 0.9418752826230665, 'tau': 0.058930512299977825} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,772][0m Trial 31 failed with value nan.[0m
+Trial 32 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,795][0m Trial 32 failed with parameters: {'H': 0.03902734021993725, 'decay_rate': 0.9988909459837857, 'alpha': 0.00011894951795152713, 'beta': 0.00042435029599775136, 'batch_size': 64, 'learn_every': 50, 'gamma': 0.8497905883791732, 'tau': 0.05033398245001429} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,795][0m Trial 32 failed with value nan.[0m
+Trial 33 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,818][0m Trial 33 failed with parameters: {'H': 0.028815025714413592, 'decay_rate': 0.9956939075005724, 'alpha': 3.4147536357084596e-06, 'beta': 3.668878145649664e-05, 'batch_size': 128, 'learn_every': 100, 'gamma': 0.9182374083598305, 'tau': 0.08578773227238373} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,818][0m Trial 33 failed with value nan.[0m
+Trial 34 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,841][0m Trial 34 failed with parameters: {'H': 0.04012444024529868, 'decay_rate': 0.9987989476315464, 'alpha': 0.0002644104249713498, 'beta': 0.0012089181336946563, 'batch_size': 1024, 'learn_every': 400, 'gamma': 0.9797522394660236, 'tau': 0.07921620057325612} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,841][0m Trial 34 failed with value nan.[0m
+Trial 35 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,864][0m Trial 35 failed with parameters: {'H': 0.1967082071310037, 'decay_rate': 0.9959924278530586, 'alpha': 4.661180850767784e-06, 'beta': 0.00016351365670752194, 'batch_size': 128, 'learn_every': 200, 'gamma': 0.8464924740299662, 'tau': 0.06603820624650784} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,864][0m Trial 35 failed with value nan.[0m
+Trial 36 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,887][0m Trial 36 failed with parameters: {'H': 0.255145236666671, 'decay_rate': 0.9901244168418728, 'alpha': 2.9058252040150147e-06, 'beta': 2.9885211356604462e-05, 'batch_size': 64, 'learn_every': 200, 'gamma': 0.8522200941601733, 'tau': 0.06916201278192868} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,887][0m Trial 36 failed with value nan.[0m
+Trial 37 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,910][0m Trial 37 failed with parameters: {'H': 0.10311122674434713, 'decay_rate': 0.9976279684137371, 'alpha': 1.9088209680259244e-05, 'beta': 0.003807269157187324, 'batch_size': 1024, 'learn_every': 50, 'gamma': 0.9025876207891226, 'tau': 0.0012086629809995094} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,910][0m Trial 37 failed with value nan.[0m
+Trial 38 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,932][0m Trial 38 failed with parameters: {'H': 0.07079992555383602, 'decay_rate': 0.9970084218024201, 'alpha': 0.0007682666763783554, 'beta': 0.0005677637934441953, 'batch_size': 128, 'learn_every': 400, 'gamma': 0.9578273964616241, 'tau': 0.008554651496908691} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,933][0m Trial 38 failed with value nan.[0m
+Trial 39 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,956][0m Trial 39 failed with parameters: {'H': 0.048289191445944776, 'decay_rate': 0.9994498936836679, 'alpha': 0.00011706724779492074, 'beta': 0.00013055148916915084, 'batch_size': 128, 'learn_every': 100, 'gamma': 0.9669197133413545, 'tau': 0.05820321433101676} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,956][0m Trial 39 failed with value nan.[0m
+Trial 40 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:28,979][0m Trial 40 failed with parameters: {'H': 0.018710170427989833, 'decay_rate': 0.9934246597646479, 'alpha': 9.55900230163786e-05, 'beta': 2.7092955181379705e-05, 'batch_size': 128, 'learn_every': 50, 'gamma': 0.9888617045135352, 'tau': 0.06158999808705184} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:28,979][0m Trial 40 failed with value nan.[0m
+Trial 41 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:29,001][0m Trial 41 failed with parameters: {'H': 0.05525097527232016, 'decay_rate': 0.9908876883452332, 'alpha': 2.1490213559173793e-05, 'beta': 0.0002036810172899784, 'batch_size': 512, 'learn_every': 400, 'gamma': 0.9473597652095407, 'tau': 0.03165596786196012} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:29,002][0m Trial 41 failed with value nan.[0m
+Trial 42 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:29,034][0m Trial 42 failed with parameters: {'H': 0.2441625792101615, 'decay_rate': 0.9960462636426592, 'alpha': 2.7413410809545076e-05, 'beta': 8.690901796984303e-05, 'batch_size': 64, 'learn_every': 100, 'gamma': 0.8795283241441031, 'tau': 0.017439129071774494} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:29,034][0m Trial 42 failed with value nan.[0m
+Trial 43 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:29,057][0m Trial 43 failed with parameters: {'H': 0.1318157676832369, 'decay_rate': 0.9987915992115903, 'alpha': 7.867570185424218e-06, 'beta': 0.0013172672591122193, 'batch_size': 128, 'learn_every': 400, 'gamma': 0.8347542692921003, 'tau': 0.07702280746749443} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:29,057][0m Trial 43 failed with value nan.[0m
+Trial 44 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:29,080][0m Trial 44 failed with parameters: {'H': 0.012927799857205867, 'decay_rate': 0.9922181396108695, 'alpha': 8.023973528928371e-06, 'beta': 0.008061153276591255, 'batch_size': 1024, 'learn_every': 400, 'gamma': 0.8848381965006099, 'tau': 0.05367879610276582} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:29,080][0m Trial 44 failed with value nan.[0m
+Trial 45 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:29,103][0m Trial 45 failed with parameters: {'H': 0.10626678836408628, 'decay_rate': 0.9964122019103089, 'alpha': 0.0007313216732974547, 'beta': 0.00083827187184681, 'batch_size': 1024, 'learn_every': 200, 'gamma': 0.9642707435576979, 'tau': 0.001048763908977936} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:29,103][0m Trial 45 failed with value nan.[0m
+Trial 46 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:29,126][0m Trial 46 failed with parameters: {'H': 0.012316745327767838, 'decay_rate': 0.9922241987850481, 'alpha': 0.0006545639604372094, 'beta': 0.0017089900509831622, 'batch_size': 256, 'learn_every': 100, 'gamma': 0.856494267632665, 'tau': 0.02419300762292663} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:29,126][0m Trial 46 failed with value nan.[0m
+Trial 47 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:29,149][0m Trial 47 failed with parameters: {'H': 0.027153880375842442, 'decay_rate': 0.9993261775661667, 'alpha': 0.00020526120045251986, 'beta': 0.0006866875554835582, 'batch_size': 64, 'learn_every': 200, 'gamma': 0.8114537622352538, 'tau': 0.021544267918991677} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:29,149][0m Trial 47 failed with value nan.[0m
+Trial 48 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:29,173][0m Trial 48 failed with parameters: {'H': 0.019088092727762775, 'decay_rate': 0.9951033425632492, 'alpha': 0.00029328310726795177, 'beta': 2.546699934987125e-05, 'batch_size': 1024, 'learn_every': 50, 'gamma': 0.8151854968900341, 'tau': 0.020433316053923994} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:29,173][0m Trial 48 failed with value nan.[0m
+Trial 49 failed: train() got an unexpected keyword argument 'Wandb'
+[33m[W 2025-07-03 14:03:29,195][0m Trial 49 failed with parameters: {'H': 0.23483262111144096, 'decay_rate': 0.9919426967331514, 'alpha': 4.293547042376184e-06, 'beta': 0.00020788981575029937, 'batch_size': 64, 'learn_every': 50, 'gamma': 0.9017257498947023, 'tau': 0.0583379180734932} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-03 14:03:29,195][0m Trial 49 failed with value nan.[0m
+
+Number of finished trials: 50
+
+Best trial:
+Traceback (most recent call last):
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/tuning.py", line 129, in <module>
+    trial = study.best_trial
+            ^^^^^^^^^^^^^^^^
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/study/study.py", line 155, in best_trial
+    return self._get_best_trial(deepcopy=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/study/study.py", line 307, in _get_best_trial
+    best_trial = self._storage.get_best_trial(self._study_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/storages/_cached_storage.py", line 180, in get_best_trial
+    return self._backend.get_best_trial(study_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/storages/_rdb/storage.py", line 914, in get_best_trial
+    trial_id = models.TrialModel.find_max_value_trial_id(study_id, 0, session)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/storages/_rdb/models.py", line 211, in find_max_value_trial_id
+    raise ValueError(NOT_FOUND_MSG)
+ValueError: Record does not exist.

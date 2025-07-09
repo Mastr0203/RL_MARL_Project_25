@@ -1,0 +1,7 @@
+[32m[I 2025-07-04 12:43:12,735][0m A new study created in RDB with name: maddpg_balance_tuning_wandb102[0m
+--------------------------------------------------
+Episode: 500, average_score: -23.77, delta: -23.77
+--------------------------------------------------
+Trial 0 failed: 'GlobalAgent' object has no attribute 'distiller'
+[33m[W 2025-07-04 12:50:10,428][0m Trial 0 failed with parameters: {'H': 0.07485474697376816, 'decay_rate': 0.9777702899988361, 'alpha': 2.7978050472392757e-05, 'beta': 0.00015194671953672314, 'batch_size': 1024, 'learn_every': 20, 'gamma': 0.9232439673389045, 'tau': 0.0011381171180656214} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:50:10,428][0m Trial 0 failed with value nan.[0m

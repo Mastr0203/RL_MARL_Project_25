@@ -1,0 +1,63 @@
+{"time":"2025-07-04T16:10:00.821595+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/wandb/run-20250704_161000-3rheu3bk/logs/debug-core.log"}
+{"time":"2025-07-04T16:10:01.154065+02:00","level":"INFO","msg":"created new stream","id":"3rheu3bk"}
+{"time":"2025-07-04T16:10:01.154101+02:00","level":"INFO","msg":"stream: started","id":"3rheu3bk"}
+{"time":"2025-07-04T16:10:01.15411+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"3rheu3bk"}
+{"time":"2025-07-04T16:10:01.154116+02:00","level":"INFO","msg":"sender: started","stream_id":"3rheu3bk"}
+{"time":"2025-07-04T16:10:01.154146+02:00","level":"INFO","msg":"handler: started","stream_id":"3rheu3bk"}
+{"time":"2025-07-04T16:10:01.426267+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-05T09:12:45.605449+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/framastr0-politecnico-di-torino/maddpg-tuning/3rheu3bk/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-07-05T09:12:47.790102+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/framastr0-politecnico-di-torino/maddpg-tuning/3rheu3bk/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-07-05T09:19:33.72816+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/framastr0-politecnico-di-torino/maddpg-tuning/3rheu3bk/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-07-05T09:19:37.226121+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-07-05T09:35:13.872347+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.16:65307->35.186.228.49:443: read: can't assign requested address"}
+{"time":"2025-07-05T09:44:26.804081+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:65447->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-05T14:08:02.647298+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:50544->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-05T17:07:50.332976+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/framastr0-politecnico-di-torino/maddpg-tuning/3rheu3bk/file_stream\": read tcp 192.168.1.7:51555->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-07-05T18:31:05.439436+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/framastr0-politecnico-di-torino/maddpg-tuning/3rheu3bk/file_stream\": read tcp 192.168.1.7:51959->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-07-05T23:37:35.33772+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/framastr0-politecnico-di-torino/maddpg-tuning/3rheu3bk/file_stream\": read tcp 192.168.1.7:53538->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-07-06T00:21:57.882393+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:53403->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T00:37:58.299916+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-07-06T00:53:35.086608+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:53716->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T01:10:19.84099+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-07-06T01:10:30.305854+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:53742->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T01:26:59.810898+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-07-06T01:42:44.075704+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:53768->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T01:59:19.451687+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-07-06T01:59:37.521876+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:53792->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T02:26:56.904557+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:53810->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T02:43:05.833834+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:53832->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T02:59:16.632902+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:53846->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T03:15:54.389659+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-07-06T03:31:36.258335+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:53863->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T03:48:04.05408+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:53889->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T04:04:26.64383+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-07-06T04:20:11.996237+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:53903->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T04:25:10.879988+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:53925->35.186.228.49:443: read: can't assign requested address"}
+{"time":"2025-07-06T04:41:20.876241+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:53943->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T04:57:43.537958+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-07-06T05:13:32.908065+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:53962->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T05:30:39.619271+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:53986->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T05:46:49.095536+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:54006->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T06:03:11.752416+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-07-06T06:03:28.411358+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:54035->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T06:23:41.723101+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:54050->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T06:39:28.454229+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:54077->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T06:55:39.187273+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:54089->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T07:11:49.972779+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:54105->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T07:28:12.716305+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-07-06T07:43:53.85484+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:54120->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T08:00:34.504086+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:54140->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T08:08:34.43795+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:54166->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T08:24:45.979161+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:54176->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T08:35:01.410496+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:54189->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T08:46:18.739075+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-07-06T08:46:50.947286+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-07-06T08:47:03.698966+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.7:54203->35.186.228.49:443: read: operation timed out"}
+{"time":"2025-07-06T10:21:45.725589+02:00","level":"INFO","msg":"stream: closing","id":"3rheu3bk"}
+{"time":"2025-07-06T10:21:45.726244+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-06T10:21:45.726707+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-06T10:21:46.557869+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-06T10:21:46.753112+02:00","level":"INFO","msg":"handler: closed","stream_id":"3rheu3bk"}
+{"time":"2025-07-06T10:21:46.754338+02:00","level":"INFO","msg":"sender: closed","stream_id":"3rheu3bk"}
+{"time":"2025-07-06T10:21:46.754338+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"3rheu3bk"}
+{"time":"2025-07-06T10:21:46.754597+02:00","level":"INFO","msg":"stream: closed","id":"3rheu3bk"}

@@ -1,0 +1,60 @@
+[32m[I 2025-07-03 14:02:35,443][0m A new study created in RDB with name: maddpg_balance_tuning_wandb3[0m
+[33m[W 2025-07-03 14:02:35,481][0m Trial 0 failed with parameters: {'H': 0.03225299641615857, 'decay_rate': 0.999244026763598, 'alpha': 9.714700231105691e-05, 'beta': 0.004390915666310872, 'batch_size': 512, 'learn_every': 200, 'gamma': 0.952870890776827, 'tau': 0.09625941138627304} because of the following error: AssertionError().[0m
+Traceback (most recent call last):
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/study/_optimize.py", line 201, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/tuning.py", line 52, in objective
+    env = make_env(
+          ^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/vmas/make_env.py", line 79, in make_env
+    env = Environment(
+          ^^^^^^^^^^^^
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/vmas/simulator/environment/environment.py", line 88, in __init__
+    self.world = self.scenario.env_make_world(self.num_envs, self.device, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/vmas/simulator/scenario.py", line 83, in env_make_world
+    self._world = self.make_world(batch_dim, device, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/vmas/scenarios/balance.py", line 21, in make_world
+    assert self.n_agents > 1
+           ^^^^^^^^^^^^^^^^^
+AssertionError
+[33m[W 2025-07-03 14:02:35,484][0m Trial 0 failed with value None.[0m
+Traceback (most recent call last):
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/tuning.py", line 123, in <module>
+    study.optimize(objective, n_trials=N_TRIALS, timeout=3600)
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/study/study.py", line 489, in optimize
+    _optimize(
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/study/_optimize.py", line 64, in _optimize
+    _optimize_sequential(
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/study/_optimize.py", line 161, in _optimize_sequential
+    frozen_trial = _run_trial(study, func, catch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/study/_optimize.py", line 253, in _run_trial
+    raise func_err
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/study/_optimize.py", line 201, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/tuning.py", line 52, in objective
+    env = make_env(
+          ^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/vmas/make_env.py", line 79, in make_env
+    env = Environment(
+          ^^^^^^^^^^^^
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/vmas/simulator/environment/environment.py", line 88, in __init__
+    self.world = self.scenario.env_make_world(self.num_envs, self.device, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/vmas/simulator/scenario.py", line 83, in env_make_world
+    self._world = self.make_world(batch_dim, device, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/vmas/scenarios/balance.py", line 21, in make_world
+    assert self.n_agents > 1
+           ^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,7 @@
+[32m[I 2025-07-04 13:05:16,691][0m A new study created in RDB with name: maddpg_balance_tuning_wandb102[0m
+--------------------------------------------------
+Episode: 500, average_score: -21.68, delta: -21.68
+--------------------------------------------------
+Trial 0 failed: 'NoneType' object has no attribute 'distill'
+[33m[W 2025-07-04 13:08:18,709][0m Trial 0 failed with parameters: {'H': 0.20731846925047842, 'decay_rate': 0.9748876583547987, 'alpha': 0.00048531879738747906, 'beta': 5.750349514071223e-05, 'batch_size': 512, 'learn_every': 40, 'gamma': 0.9800475515380267, 'tau': 0.0030281258875923638} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 13:08:18,709][0m Trial 0 failed with value nan.[0m

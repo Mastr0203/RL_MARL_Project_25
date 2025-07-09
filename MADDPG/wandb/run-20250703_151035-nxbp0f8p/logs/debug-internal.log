@@ -1,0 +1,16 @@
+{"time":"2025-07-03T15:10:35.468916+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/wandb/run-20250703_151035-nxbp0f8p/logs/debug-core.log"}
+{"time":"2025-07-03T15:10:35.793219+02:00","level":"INFO","msg":"created new stream","id":"nxbp0f8p"}
+{"time":"2025-07-03T15:10:35.793272+02:00","level":"INFO","msg":"stream: started","id":"nxbp0f8p"}
+{"time":"2025-07-03T15:10:35.793295+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"nxbp0f8p"}
+{"time":"2025-07-03T15:10:35.793483+02:00","level":"INFO","msg":"handler: started","stream_id":"nxbp0f8p"}
+{"time":"2025-07-03T15:10:35.7935+02:00","level":"INFO","msg":"sender: started","stream_id":"nxbp0f8p"}
+{"time":"2025-07-03T15:10:36.056931+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-03T15:26:22.703403+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/brianmorales019-politecnico-di-torino/maddpg-tuning/nxbp0f8p/file_stream\": read tcp 192.168.1.200:59379->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-07-03T16:12:15.621383+02:00","level":"INFO","msg":"stream: closing","id":"nxbp0f8p"}
+{"time":"2025-07-03T16:12:15.621698+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-03T16:12:15.621878+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-03T16:12:16.278565+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-03T16:12:16.509174+02:00","level":"INFO","msg":"sender: closed","stream_id":"nxbp0f8p"}
+{"time":"2025-07-03T16:12:16.509241+02:00","level":"INFO","msg":"handler: closed","stream_id":"nxbp0f8p"}
+{"time":"2025-07-03T16:12:16.509243+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"nxbp0f8p"}
+{"time":"2025-07-03T16:12:16.5093+02:00","level":"INFO","msg":"stream: closed","id":"nxbp0f8p"}

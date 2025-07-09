@@ -1,0 +1,163 @@
+[32m[I 2025-07-03 14:09:52,649][0m A new study created in RDB with name: maddpg_balance_tuning_wandb101[0m
+--------------------------------------------------
+Episode: 500, average_score: -40.81, delta: -40.81
+--------------------------------------------------
+--------------------------------------------------
+Episode: 1000, average_score: -33.91, delta: 6.89
+--------------------------------------------------
+--------------------------------------------------
+Episode: 1500, average_score: -30.55, delta: 3.36
+--------------------------------------------------
+--------------------------------------------------
+Episode: 2000, average_score: -27.03, delta: 3.53
+--------------------------------------------------
+--------------------------------------------------
+Episode: 2500, average_score: -24.52, delta: 2.50
+--------------------------------------------------
+--------------------------------------------------
+Episode: 3000, average_score: -4.69, delta: 19.83
+--------------------------------------------------
+--------------------------------------------------
+Episode: 3500, average_score: -19.81, delta: -15.11
+--------------------------------------------------
+--------------------------------------------------
+Episode: 4000, average_score: -20.32, delta: -0.51
+--------------------------------------------------
+... Saving checkpoint ...
+... Saving checkpoint ...
+... Saving checkpoint ...
+... Saving checkpoint ...
+... Saving checkpoint ...
+... Saving checkpoint ...
+... Saving checkpoint ...
+... Saving checkpoint ...
+... Saving checkpoint ...
+--------------------------------------------------
+Episode: 4500, average_score: -7.55, delta: 12.76
+--------------------------------------------------
+--------------------------------------------------
+Episode: 5000, average_score: -16.09, delta: -8.54
+--------------------------------------------------
+--------------------------------------------------
+Episode: 5500, average_score: -11.07, delta: 5.03
+--------------------------------------------------
+--------------------------------------------------
+Episode: 6000, average_score: -14.08, delta: -3.01
+--------------------------------------------------
+--------------------------------------------------
+Episode: 6500, average_score: -17.35, delta: -3.27
+--------------------------------------------------
+--------------------------------------------------
+Episode: 7000, average_score: -2.33, delta: 15.01
+--------------------------------------------------
+--------------------------------------------------
+Episode: 7500, average_score: -22.77, delta: -20.43
+--------------------------------------------------
+--------------------------------------------------
+Episode: 8000, average_score: -23.03, delta: -0.26
+--------------------------------------------------
+--------------------------------------------------
+Episode: 8500, average_score: -14.12, delta: 8.91
+--------------------------------------------------
+--------------------------------------------------
+Episode: 9000, average_score: -19.40, delta: -5.28
+--------------------------------------------------
+--------------------------------------------------
+Episode: 9500, average_score: -21.79, delta: -2.39
+--------------------------------------------------
+--------------------------------------------------
+Episode: 10000, average_score: -19.81, delta: 1.98
+--------------------------------------------------
+--------------------------------------------------
+Episode: 10500, average_score: -21.39, delta: -1.58
+--------------------------------------------------
+--------------------------------------------------
+Episode: 11000, average_score: -17.98, delta: 3.41
+--------------------------------------------------
+--------------------------------------------------
+Episode: 11500, average_score: -15.51, delta: 2.47
+--------------------------------------------------
+--------------------------------------------------
+Episode: 12000, average_score: -15.87, delta: -0.36
+--------------------------------------------------
+--------------------------------------------------
+Episode: 12500, average_score: -13.02, delta: 2.85
+--------------------------------------------------
+--------------------------------------------------
+Episode: 13000, average_score: -17.54, delta: -4.51
+--------------------------------------------------
+--------------------------------------------------
+Episode: 13500, average_score: -17.13, delta: 0.40
+--------------------------------------------------
+--------------------------------------------------
+Episode: 14000, average_score: -17.86, delta: -0.72
+--------------------------------------------------
+--------------------------------------------------
+Episode: 14500, average_score: -13.99, delta: 3.87
+--------------------------------------------------
+--------------------------------------------------
+Episode: 15000, average_score: -14.90, delta: -0.91
+--------------------------------------------------
+--------------------------------------------------
+Episode: 15500, average_score: -13.41, delta: 1.49
+--------------------------------------------------
+[33m[W 2025-07-03 15:09:14,045][0m Trial 0 failed with parameters: {'H': 0.016182952566764896, 'decay_rate': 0.9960122177523727, 'alpha': 2.045697014705662e-05, 'beta': 0.0016230897707743084, 'batch_size': 128, 'learn_every': 100, 'gamma': 0.8118241178189971, 'tau': 0.062487031625909885} because of the following error: KeyboardInterrupt().[0m
+Traceback (most recent call last):
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/study/_optimize.py", line 201, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/tuning.py", line 64, in objective
+    result = train(env=env, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/main.py", line 102, in train
+    obs_, reward, dones, info = env.step(actions)
+                                ^^^^^^^^^^^^^^^^^
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/vmas/simulator/environment/environment.py", line 399, in step
+    return self._get_from_scenario(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/vmas/simulator/environment/environment.py", line 305, in _get_from_scenario
+    dones = self._done()
+            ^^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/vmas/simulator/environment/environment.py", line 414, in _done
+    terminated = self.scenario.done().clone()
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/vmas/scenarios/balance.py", line 260, in done
+    return self.on_the_ground + self.world.is_overlapping(
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/vmas/simulator/core.py", line 1931, in is_overlapping
+    return self.get_distance(entity_a, entity_b, env_index) < 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/vmas/simulator/core.py", line 1826, in get_distance
+    dist = self.get_distance_from_point(entity_a, entity_b.state.pos, env_index)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/vmas/simulator/core.py", line 1794, in get_distance_from_point
+    dist = torch.linalg.vector_norm(delta_pos, dim=-1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+[33m[W 2025-07-03 15:09:14,052][0m Trial 0 failed with value None.[0m
+
+Number of finished trials: 1
+
+Best trial:
+Traceback (most recent call last):
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/tuning.py", line 129, in <module>
+    trial = study.best_trial
+            ^^^^^^^^^^^^^^^^
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/study/study.py", line 155, in best_trial
+    return self._get_best_trial(deepcopy=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/study/study.py", line 307, in _get_best_trial
+    best_trial = self._storage.get_best_trial(self._study_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/storages/_cached_storage.py", line 180, in get_best_trial
+    return self._backend.get_best_trial(study_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/storages/_rdb/storage.py", line 914, in get_best_trial
+    trial_id = models.TrialModel.find_max_value_trial_id(study_id, 0, session)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/storages/_rdb/models.py", line 211, in find_max_value_trial_id
+    raise ValueError(NOT_FOUND_MSG)
+ValueError: Record does not exist.

@@ -1,0 +1,103 @@
+--------------------------------------------------
+Episode: 1, average_score: 288.89, delta: 288.89
+--------------------------------------------------
+--------------------------------------------------
+Episode: 2, average_score: 339.70, delta: 50.81
+--------------------------------------------------
+--------------------------------------------------
+Episode: 3, average_score: 325.44, delta: -14.26
+--------------------------------------------------
+--------------------------------------------------
+Episode: 4, average_score: 340.84, delta: 15.40
+--------------------------------------------------
+--------------------------------------------------
+Episode: 5, average_score: 333.36, delta: -7.49
+--------------------------------------------------
+--------------------------------------------------
+Episode: 6, average_score: 325.16, delta: -8.19
+--------------------------------------------------
+--------------------------------------------------
+Episode: 7, average_score: 337.21, delta: 12.04
+--------------------------------------------------
+--------------------------------------------------
+Episode: 8, average_score: 353.53, delta: 16.33
+--------------------------------------------------
+--------------------------------------------------
+Episode: 9, average_score: 366.91, delta: 13.37
+--------------------------------------------------
+--------------------------------------------------
+Episode: 10, average_score: 368.27, delta: 1.37
+--------------------------------------------------
+--------------------------------------------------
+Episode: 11, average_score: 367.24, delta: -1.03
+--------------------------------------------------
+--------------------------------------------------
+Episode: 12, average_score: 365.66, delta: -1.58
+--------------------------------------------------
+--------------------------------------------------
+Episode: 13, average_score: 375.07, delta: 9.40
+--------------------------------------------------
+--------------------------------------------------
+Episode: 14, average_score: 376.34, delta: 1.27
+--------------------------------------------------
+--------------------------------------------------
+Episode: 15, average_score: 379.17, delta: 2.83
+--------------------------------------------------
+--------------------------------------------------
+Episode: 16, average_score: 381.68, delta: 2.51
+--------------------------------------------------
+--------------------------------------------------
+Episode: 17, average_score: 377.34, delta: -4.35
+--------------------------------------------------
+--------------------------------------------------
+Episode: 18, average_score: 373.50, delta: -3.83
+--------------------------------------------------
+--------------------------------------------------
+Episode: 19, average_score: 378.59, delta: 5.09
+--------------------------------------------------
+--------------------------------------------------
+Episode: 20, average_score: 379.95, delta: 1.36
+--------------------------------------------------
+--------------------------------------------------
+Episode: 21, average_score: 373.89, delta: -6.06
+--------------------------------------------------
+--------------------------------------------------
+Episode: 22, average_score: 369.38, delta: -4.51
+--------------------------------------------------
+--------------------------------------------------
+Episode: 23, average_score: 375.26, delta: 5.88
+--------------------------------------------------
+--------------------------------------------------
+Episode: 24, average_score: 375.12, delta: -0.14
+--------------------------------------------------
+--------------------------------------------------
+Episode: 25, average_score: 378.94, delta: 3.82
+--------------------------------------------------
+--------------------------------------------------
+Episode: 26, average_score: 381.32, delta: 2.38
+--------------------------------------------------
+--------------------------------------------------
+Episode: 27, average_score: 380.17, delta: -1.15
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/main.py", line 48, in <module>
+    main()
+  File "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/main.py", line 41, in main
+    training_result = train(
+                      ^^^^^^
+  File "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/Train.py", line 88, in train
+    env.render(mode="human")
+  File "/Users/lilshoe/miniconda3/envs/mldl/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/vmas/simulator/environment/environment.py", line 929, in render
+    return self.viewer.render(return_rgb_array=mode == "rgb_array")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/vmas/simulator/rendering.py", line 149, in render
+    self.window.dispatch_events()
+  File "/Users/lilshoe/miniconda3/envs/mldl/lib/python3.11/site-packages/pyglet/window/cocoa/__init__.py", line 312, in dispatch_events
+    event_type = event.type()
+                 ^^^^^^^^^^
+  File "/Users/lilshoe/miniconda3/envs/mldl/lib/python3.11/site-packages/pyglet/libs/darwin/cocoapy/runtime.py", line 1009, in __getattr__
+    raise AttributeError('ObjCInstance %s has no attribute %s' % (self.objc_class.name, name))
+AttributeError: ObjCInstance b'NSConcreteNotification' has no attribute b'type'

@@ -1,0 +1,30 @@
+[32m[I 2025-07-03 14:00:52,049][0m A new study created in RDB with name: maddpg_balance_tuning_wandb4[0m
+[33m[W 2025-07-03 14:00:52,088][0m Trial 0 failed with parameters: {'H': 0.014453325403521324, 'decay_rate': 0.9953012577709528, 'alpha': 4.2433035317830065e-06, 'beta': 5.1627238644269994e-05, 'batch_size': 128, 'learn_every': 100, 'gamma': 0.8293611600150823, 'tau': 0.06302534355304297} because of the following error: KeyError('n_agents').[0m
+Traceback (most recent call last):
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/study/_optimize.py", line 201, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/tuning.py", line 58, in objective
+    n_agents=kwargs["n_agents"],
+             ~~~~~~^^^^^^^^^^^^
+KeyError: 'n_agents'
+[33m[W 2025-07-03 14:00:52,088][0m Trial 0 failed with value None.[0m
+Traceback (most recent call last):
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/tuning.py", line 122, in <module>
+    study.optimize(objective, n_trials=N_TRIALS, timeout=3600)
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/study/study.py", line 489, in optimize
+    _optimize(
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/study/_optimize.py", line 64, in _optimize
+    _optimize_sequential(
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/study/_optimize.py", line 161, in _optimize_sequential
+    frozen_trial = _run_trial(study, func, catch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/study/_optimize.py", line 253, in _run_trial
+    raise func_err
+  File "/Users/brian/miniconda3/envs/RL/lib/python3.11/site-packages/optuna/study/_optimize.py", line 201, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/tuning.py", line 58, in objective
+    n_agents=kwargs["n_agents"],
+             ~~~~~~^^^^^^^^^^^^
+KeyError: 'n_agents'

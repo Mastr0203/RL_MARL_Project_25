@@ -1,0 +1,24 @@
+--------------------------------------------------
+Episode: 100, average_score: -37.11, delta: -37.11
+--------------------------------------------------
+--------------------------------------------------
+Episode: 200, average_score: -30.70, delta: 6.41
+--------------------------------------------------
+--------------------------------------------------
+Episode: 300, average_score: -25.47, delta: 5.23
+--------------------------------------------------
+--------------------------------------------------
+Episode: 400, average_score: -16.94, delta: 8.53
+--------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/main.py", line 52, in <module>
+    main()
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/main.py", line 44, in main
+    training_result = train(
+                      ^^^^^^
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/Train.py", line 109, in train
+    maddpg_agents.learn(memory)
+  File "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/MADDPG.py", line 101, in learn
+    target_action = agent.target_actor[actor_idx].forward(new_state).detach()          #Compute the new action a' through the target network (needed to compute the Q-value)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

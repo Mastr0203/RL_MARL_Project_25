@@ -1,0 +1,18 @@
+{"time":"2025-07-06T22:06:22.933165+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/wandb/run-20250706_220622-0fq0pchp/logs/debug-core.log"}
+{"time":"2025-07-06T22:06:23.238468+02:00","level":"INFO","msg":"created new stream","id":"0fq0pchp"}
+{"time":"2025-07-06T22:06:23.23852+02:00","level":"INFO","msg":"stream: started","id":"0fq0pchp"}
+{"time":"2025-07-06T22:06:23.238543+02:00","level":"INFO","msg":"sender: started","stream_id":"0fq0pchp"}
+{"time":"2025-07-06T22:06:23.238562+02:00","level":"INFO","msg":"handler: started","stream_id":"0fq0pchp"}
+{"time":"2025-07-06T22:06:23.238542+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"0fq0pchp"}
+{"time":"2025-07-06T22:06:23.446932+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-06T23:44:38.93271+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/brianmorales019-politecnico-di-torino/maddpg-balance/0fq0pchp/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-07-07T03:40:59.974087+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/brianmorales019-politecnico-di-torino/maddpg-balance/0fq0pchp/file_stream\": read tcp 192.168.1.16:57098->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-07-07T03:41:14.932847+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/brianmorales019-politecnico-di-torino/maddpg-balance/0fq0pchp/file_stream\": read tcp 192.168.1.16:57100->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-07-07T04:53:57.646505+02:00","level":"INFO","msg":"stream: closing","id":"0fq0pchp"}
+{"time":"2025-07-07T04:53:57.647081+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-07T04:53:57.647133+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-07T04:53:58.273014+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-07T04:53:58.511582+02:00","level":"INFO","msg":"handler: closed","stream_id":"0fq0pchp"}
+{"time":"2025-07-07T04:53:58.51168+02:00","level":"INFO","msg":"sender: closed","stream_id":"0fq0pchp"}
+{"time":"2025-07-07T04:53:58.512359+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"0fq0pchp"}
+{"time":"2025-07-07T04:53:58.512499+02:00","level":"INFO","msg":"stream: closed","id":"0fq0pchp"}

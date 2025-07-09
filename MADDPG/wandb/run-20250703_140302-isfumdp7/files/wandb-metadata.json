@@ -1,0 +1,16 @@
+{
+  "os": "macOS-14.4.1-arm64-arm-64bit",
+  "python": "CPython 3.11.11",
+  "startedAt": "2025-07-03T12:03:02.376158Z",
+  "program": "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/tuning.py",
+  "codePath": "tuning.py",
+  "git": {
+    "remote": "https://github.com/LucianoScarpino/RL_Multi_Agent.git",
+    "commit": "23dabe0da117fcbffad79aee6e4b99eebc1a3863"
+  },
+  "email": "brianmorales019@gmail.com",
+  "root": "/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent",
+  "host": "Air-di-Brian.wind3.hub",
+  "executable": "/Users/brian/miniconda3/envs/RL/bin/python",
+  "codePathLocal": "tuning.py"
+}

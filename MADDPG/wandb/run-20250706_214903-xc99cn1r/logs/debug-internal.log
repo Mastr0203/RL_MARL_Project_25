@@ -1,0 +1,7 @@
+{"time":"2025-07-06T21:49:03.193159+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/wandb/run-20250706_214903-xc99cn1r/logs/debug-core.log"}
+{"time":"2025-07-06T21:49:03.514138+02:00","level":"INFO","msg":"created new stream","id":"xc99cn1r"}
+{"time":"2025-07-06T21:49:03.514187+02:00","level":"INFO","msg":"stream: started","id":"xc99cn1r"}
+{"time":"2025-07-06T21:49:03.514225+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"xc99cn1r"}
+{"time":"2025-07-06T21:49:03.514424+02:00","level":"INFO","msg":"handler: started","stream_id":"xc99cn1r"}
+{"time":"2025-07-06T21:49:03.514439+02:00","level":"INFO","msg":"sender: started","stream_id":"xc99cn1r"}
+{"time":"2025-07-06T21:49:03.773474+02:00","level":"INFO","msg":"Starting system monitor"}

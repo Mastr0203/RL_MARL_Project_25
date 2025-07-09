@@ -1,0 +1,1 @@
+{"_wandb":{"runtime":3700},"_step":7,"param/decay_rate":0.9959131598874607,"param/learn_every":400,"_timestamp":1.751551932609882e+09,"param/batch_size":128,"param/H":0.473751646034538,"_runtime":3700.157452,"param/gamma":0.9539881217219152,"trial":7,"param/alpha":1.998966455194991e-06,"param/tau":0.08729574710701671,"param/beta":2.5418570734670746e-05,"best_reward":0}

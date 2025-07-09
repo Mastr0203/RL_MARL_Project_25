@@ -1,0 +1,15 @@
+{"time":"2025-07-03T14:03:02.379925+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/wandb/run-20250703_140302-isfumdp7/logs/debug-core.log"}
+{"time":"2025-07-03T14:03:02.689813+02:00","level":"INFO","msg":"created new stream","id":"isfumdp7"}
+{"time":"2025-07-03T14:03:02.689859+02:00","level":"INFO","msg":"stream: started","id":"isfumdp7"}
+{"time":"2025-07-03T14:03:02.689876+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"isfumdp7"}
+{"time":"2025-07-03T14:03:02.690042+02:00","level":"INFO","msg":"handler: started","stream_id":"isfumdp7"}
+{"time":"2025-07-03T14:03:02.690071+02:00","level":"INFO","msg":"sender: started","stream_id":"isfumdp7"}
+{"time":"2025-07-03T14:03:02.976067+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-03T14:03:03.459926+02:00","level":"INFO","msg":"stream: closing","id":"isfumdp7"}
+{"time":"2025-07-03T14:03:03.460136+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-03T14:03:03.460153+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-03T14:03:04.136961+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-03T14:03:04.369478+02:00","level":"INFO","msg":"sender: closed","stream_id":"isfumdp7"}
+{"time":"2025-07-03T14:03:04.369513+02:00","level":"INFO","msg":"handler: closed","stream_id":"isfumdp7"}
+{"time":"2025-07-03T14:03:04.369959+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"isfumdp7"}
+{"time":"2025-07-03T14:03:04.370036+02:00","level":"INFO","msg":"stream: closed","id":"isfumdp7"}

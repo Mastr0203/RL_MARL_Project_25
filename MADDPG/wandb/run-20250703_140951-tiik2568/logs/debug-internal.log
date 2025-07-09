@@ -1,0 +1,15 @@
+{"time":"2025-07-03T14:09:51.631999+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/wandb/run-20250703_140951-tiik2568/logs/debug-core.log"}
+{"time":"2025-07-03T14:09:51.943592+02:00","level":"INFO","msg":"created new stream","id":"tiik2568"}
+{"time":"2025-07-03T14:09:51.943842+02:00","level":"INFO","msg":"stream: started","id":"tiik2568"}
+{"time":"2025-07-03T14:09:51.943878+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"tiik2568"}
+{"time":"2025-07-03T14:09:51.944048+02:00","level":"INFO","msg":"handler: started","stream_id":"tiik2568"}
+{"time":"2025-07-03T14:09:51.944065+02:00","level":"INFO","msg":"sender: started","stream_id":"tiik2568"}
+{"time":"2025-07-03T14:09:52.318846+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-03T15:09:14.312858+02:00","level":"INFO","msg":"stream: closing","id":"tiik2568"}
+{"time":"2025-07-03T15:09:14.313742+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-03T15:09:14.314005+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-03T15:09:14.966417+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-03T15:09:15.171817+02:00","level":"INFO","msg":"sender: closed","stream_id":"tiik2568"}
+{"time":"2025-07-03T15:09:15.171895+02:00","level":"INFO","msg":"handler: closed","stream_id":"tiik2568"}
+{"time":"2025-07-03T15:09:15.17189+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tiik2568"}
+{"time":"2025-07-03T15:09:15.172256+02:00","level":"INFO","msg":"stream: closed","id":"tiik2568"}

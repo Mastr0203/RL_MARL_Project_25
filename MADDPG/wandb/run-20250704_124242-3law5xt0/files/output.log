@@ -1,0 +1,384 @@
+[32m[I 2025-07-04 12:42:43,220][0m A new study created in RDB with name: maddpg_balance_tuning_wandb102[0m
+Trial 0 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,251][0m Trial 0 failed with parameters: {'H': 0.19141671952932587, 'decay_rate': 0.9620641590027034, 'alpha': 5.441951438237555e-06, 'beta': 0.0001807785838513961, 'batch_size': 256, 'learn_every': 5, 'gamma': 0.9326347632930692, 'tau': 0.039658767671157426, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,251][0m Trial 0 failed with value nan.[0m
+Trial 1 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,273][0m Trial 1 failed with parameters: {'H': 0.05495604921016941, 'decay_rate': 0.9847823116024945, 'alpha': 9.297678218082735e-05, 'beta': 0.0001549341832603644, 'batch_size': 512, 'learn_every': 5, 'gamma': 0.9890261322142662, 'tau': 0.004135692522556722, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,274][0m Trial 1 failed with value nan.[0m
+Trial 2 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,294][0m Trial 2 failed with parameters: {'H': 0.054369913376950345, 'decay_rate': 0.9507588549621139, 'alpha': 1.5982565899722282e-05, 'beta': 8.594020517133888e-05, 'batch_size': 256, 'learn_every': 40, 'gamma': 0.9313953611086461, 'tau': 0.048243584729593225, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,294][0m Trial 2 failed with value nan.[0m
+Trial 3 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,315][0m Trial 3 failed with parameters: {'H': 0.029912425007590657, 'decay_rate': 0.9505289492150677, 'alpha': 8.714386369011631e-05, 'beta': 0.00010804513590425817, 'batch_size': 256, 'learn_every': 40, 'gamma': 0.9137128855364345, 'tau': 0.0278804599290132, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,315][0m Trial 3 failed with value nan.[0m
+Trial 4 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,335][0m Trial 4 failed with parameters: {'H': 0.1029831919940145, 'decay_rate': 0.9948094446459731, 'alpha': 0.00011378879426469483, 'beta': 0.0001492775159494878, 'batch_size': 128, 'learn_every': 40, 'gamma': 0.9791034300329121, 'tau': 0.0006273487985273246, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,335][0m Trial 4 failed with value nan.[0m
+Trial 5 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,356][0m Trial 5 failed with parameters: {'H': 0.02455129832256544, 'decay_rate': 0.9815508372632084, 'alpha': 8.9734437069069e-06, 'beta': 5.0397285994433965e-05, 'batch_size': 256, 'learn_every': 40, 'gamma': 0.9619055855531652, 'tau': 0.010204806988122938, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,356][0m Trial 5 failed with value nan.[0m
+Trial 6 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,378][0m Trial 6 failed with parameters: {'H': 0.040287585671904526, 'decay_rate': 0.97427268950171, 'alpha': 0.0002326579216775481, 'beta': 0.0004368546986847244, 'batch_size': 128, 'learn_every': 40, 'gamma': 0.9555588406946399, 'tau': 0.0005553769079177548, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,378][0m Trial 6 failed with value nan.[0m
+Trial 7 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,399][0m Trial 7 failed with parameters: {'H': 0.037679654457208785, 'decay_rate': 0.9618738104523761, 'alpha': 4.893484148359742e-05, 'beta': 0.00018799350488435913, 'batch_size': 128, 'learn_every': 20, 'gamma': 0.9489713466030482, 'tau': 0.000550253931050556, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,399][0m Trial 7 failed with value nan.[0m
+Trial 8 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,422][0m Trial 8 failed with parameters: {'H': 0.06599568600765067, 'decay_rate': 0.9704459182592594, 'alpha': 0.00024199945784614426, 'beta': 0.00022477642757004896, 'batch_size': 256, 'learn_every': 10, 'gamma': 0.9127755479987135, 'tau': 0.0012346457535661267, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,422][0m Trial 8 failed with value nan.[0m
+Trial 9 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,443][0m Trial 9 failed with parameters: {'H': 0.14579758195392514, 'decay_rate': 0.9803215332253942, 'alpha': 2.6336526745892682e-05, 'beta': 6.062650931184869e-05, 'batch_size': 256, 'learn_every': 40, 'gamma': 0.9185941751525286, 'tau': 0.0008787868769542519, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,443][0m Trial 9 failed with value nan.[0m
+Trial 10 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,464][0m Trial 10 failed with parameters: {'H': 0.058327420774128586, 'decay_rate': 0.9781740792968164, 'alpha': 6.646337808019629e-05, 'beta': 0.00015364198816978335, 'batch_size': 1024, 'learn_every': 80, 'gamma': 0.9454624300943582, 'tau': 0.000923773338673605, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,464][0m Trial 10 failed with value nan.[0m
+Trial 11 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,486][0m Trial 11 failed with parameters: {'H': 0.13587647136299605, 'decay_rate': 0.9737742750666405, 'alpha': 8.431791425895786e-06, 'beta': 9.120424359277696e-05, 'batch_size': 512, 'learn_every': 80, 'gamma': 0.9771150667258581, 'tau': 0.00830968006960278, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,486][0m Trial 11 failed with value nan.[0m
+Trial 12 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,507][0m Trial 12 failed with parameters: {'H': 0.0549808883615549, 'decay_rate': 0.9896389277711349, 'alpha': 1.5798022982315917e-05, 'beta': 0.0004416392219369859, 'batch_size': 1024, 'learn_every': 10, 'gamma': 0.9653449118848241, 'tau': 0.008045312631488583, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,507][0m Trial 12 failed with value nan.[0m
+Trial 13 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,528][0m Trial 13 failed with parameters: {'H': 0.22452614892200493, 'decay_rate': 0.9589825335044816, 'alpha': 5.684958541172552e-06, 'beta': 0.00017251649675681705, 'batch_size': 256, 'learn_every': 40, 'gamma': 0.9655168402698676, 'tau': 0.02055898649980127, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,528][0m Trial 13 failed with value nan.[0m
+Trial 14 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,548][0m Trial 14 failed with parameters: {'H': 0.12310697504523879, 'decay_rate': 0.9526015876188467, 'alpha': 1.3360020749202059e-05, 'beta': 0.00017278347228166088, 'batch_size': 512, 'learn_every': 5, 'gamma': 0.9557734846586748, 'tau': 0.024734602799243065, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,548][0m Trial 14 failed with value nan.[0m
+Trial 15 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,567][0m Trial 15 failed with parameters: {'H': 0.057826862482929293, 'decay_rate': 0.9541255725413346, 'alpha': 3.9017195829872035e-05, 'beta': 0.0001669625237182963, 'batch_size': 1024, 'learn_every': 20, 'gamma': 0.9573321154890682, 'tau': 0.002621088662019936, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,568][0m Trial 15 failed with value nan.[0m
+Trial 16 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,590][0m Trial 16 failed with parameters: {'H': 0.10357794660604328, 'decay_rate': 0.999009493690599, 'alpha': 2.0646039941453897e-05, 'beta': 0.00018711284294719292, 'batch_size': 512, 'learn_every': 5, 'gamma': 0.9016574978937217, 'tau': 0.0140477250660332, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,590][0m Trial 16 failed with value nan.[0m
+Trial 17 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,615][0m Trial 17 failed with parameters: {'H': 0.10914568993651956, 'decay_rate': 0.9994895334506094, 'alpha': 1.8784892735383703e-05, 'beta': 0.000178974596150801, 'batch_size': 128, 'learn_every': 40, 'gamma': 0.9811802791448491, 'tau': 0.0010234046991909555, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,616][0m Trial 17 failed with value nan.[0m
+Trial 18 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,640][0m Trial 18 failed with parameters: {'H': 0.09639151664905603, 'decay_rate': 0.956320632398388, 'alpha': 9.631186944615782e-05, 'beta': 0.000318882505022396, 'batch_size': 128, 'learn_every': 20, 'gamma': 0.9909002716083961, 'tau': 0.004905846157300619, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,640][0m Trial 18 failed with value nan.[0m
+Trial 19 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,662][0m Trial 19 failed with parameters: {'H': 0.05370700081750645, 'decay_rate': 0.9595388230145306, 'alpha': 1.651723254087382e-05, 'beta': 0.0004036293601088067, 'batch_size': 1024, 'learn_every': 10, 'gamma': 0.9881012383751522, 'tau': 0.008947138953908081, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,662][0m Trial 19 failed with value nan.[0m
+Trial 20 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,684][0m Trial 20 failed with parameters: {'H': 0.10063044642528904, 'decay_rate': 0.9518031596305825, 'alpha': 7.138615126063852e-05, 'beta': 0.0004101760229176937, 'batch_size': 256, 'learn_every': 10, 'gamma': 0.9752165937556178, 'tau': 0.00879922027630853, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,684][0m Trial 20 failed with value nan.[0m
+Trial 21 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,705][0m Trial 21 failed with parameters: {'H': 0.2868529790850616, 'decay_rate': 0.961638671704897, 'alpha': 1.6412858994579177e-05, 'beta': 0.00011000940002269987, 'batch_size': 128, 'learn_every': 10, 'gamma': 0.9947235195836043, 'tau': 0.00573835371147226, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,705][0m Trial 21 failed with value nan.[0m
+Trial 22 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,727][0m Trial 22 failed with parameters: {'H': 0.2928868869855449, 'decay_rate': 0.9842667033857261, 'alpha': 7.765366677360735e-05, 'beta': 0.00024922018936484935, 'batch_size': 256, 'learn_every': 5, 'gamma': 0.9391708365967747, 'tau': 0.01056847209664966, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,727][0m Trial 22 failed with value nan.[0m
+Trial 23 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,749][0m Trial 23 failed with parameters: {'H': 0.10823344095011946, 'decay_rate': 0.9507107694684327, 'alpha': 0.00035707402269901094, 'beta': 0.00028938268691235705, 'batch_size': 1024, 'learn_every': 80, 'gamma': 0.9775295284151606, 'tau': 0.0019207565954982425, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,750][0m Trial 23 failed with value nan.[0m
+Trial 24 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,770][0m Trial 24 failed with parameters: {'H': 0.08290568593365655, 'decay_rate': 0.9577195277613499, 'alpha': 0.0004759514523070856, 'beta': 7.613359814756304e-05, 'batch_size': 512, 'learn_every': 20, 'gamma': 0.9512500675632953, 'tau': 0.005223947349719568, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,770][0m Trial 24 failed with value nan.[0m
+Trial 25 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,790][0m Trial 25 failed with parameters: {'H': 0.02364484882202921, 'decay_rate': 0.9848214637766676, 'alpha': 1.158809221473814e-05, 'beta': 0.00022590197533416627, 'batch_size': 256, 'learn_every': 20, 'gamma': 0.9844649658217437, 'tau': 0.006236264260665525, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,790][0m Trial 25 failed with value nan.[0m
+Trial 26 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,811][0m Trial 26 failed with parameters: {'H': 0.25340222923909383, 'decay_rate': 0.9738791910830468, 'alpha': 0.0004873091954417888, 'beta': 5.808054150361825e-05, 'batch_size': 256, 'learn_every': 20, 'gamma': 0.9103091955054016, 'tau': 0.0034851388892361817, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,811][0m Trial 26 failed with value nan.[0m
+Trial 27 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,831][0m Trial 27 failed with parameters: {'H': 0.020789854883010103, 'decay_rate': 0.9824237425486543, 'alpha': 8.256371352089016e-06, 'beta': 6.481810662511378e-05, 'batch_size': 1024, 'learn_every': 40, 'gamma': 0.9846461397712227, 'tau': 0.006796615416019268, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,831][0m Trial 27 failed with value nan.[0m
+Trial 28 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,852][0m Trial 28 failed with parameters: {'H': 0.02212837073500913, 'decay_rate': 0.9635558357740147, 'alpha': 0.00018235602280760932, 'beta': 0.0003294657171789645, 'batch_size': 128, 'learn_every': 80, 'gamma': 0.943949292252102, 'tau': 0.0005028607357957283, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,853][0m Trial 28 failed with value nan.[0m
+Trial 29 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,873][0m Trial 29 failed with parameters: {'H': 0.2891700615571483, 'decay_rate': 0.9980471630380043, 'alpha': 8.151390395003167e-06, 'beta': 0.0003321879322772217, 'batch_size': 512, 'learn_every': 10, 'gamma': 0.9089861789560792, 'tau': 0.027124768201444244, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,873][0m Trial 29 failed with value nan.[0m
+Trial 30 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,895][0m Trial 30 failed with parameters: {'H': 0.020496738529813784, 'decay_rate': 0.9855738497331965, 'alpha': 0.00021280163637166718, 'beta': 0.00021652839827989375, 'batch_size': 1024, 'learn_every': 40, 'gamma': 0.9784938626541095, 'tau': 0.0017283498802011538, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,895][0m Trial 30 failed with value nan.[0m
+Trial 31 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,916][0m Trial 31 failed with parameters: {'H': 0.11277554921015497, 'decay_rate': 0.9815804750875076, 'alpha': 9.737698221294775e-05, 'beta': 0.00044611896136911253, 'batch_size': 256, 'learn_every': 5, 'gamma': 0.9531314415744329, 'tau': 0.026327410954836834, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,917][0m Trial 31 failed with value nan.[0m
+Trial 32 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,940][0m Trial 32 failed with parameters: {'H': 0.20160132487866156, 'decay_rate': 0.9876553197564403, 'alpha': 2.2660927625227015e-05, 'beta': 5.055635498413327e-05, 'batch_size': 128, 'learn_every': 20, 'gamma': 0.9157453600117578, 'tau': 0.0005974968079636738, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,940][0m Trial 32 failed with value nan.[0m
+Trial 33 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,961][0m Trial 33 failed with parameters: {'H': 0.10261576581630326, 'decay_rate': 0.9632187211634913, 'alpha': 0.00011778337571223337, 'beta': 0.00019866189601769487, 'batch_size': 256, 'learn_every': 20, 'gamma': 0.9279641006228633, 'tau': 0.0011601751813899658, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,961][0m Trial 33 failed with value nan.[0m
+Trial 34 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:43,985][0m Trial 34 failed with parameters: {'H': 0.0486290474859741, 'decay_rate': 0.9568216752480757, 'alpha': 0.0002592123680057023, 'beta': 0.0004169525607551236, 'batch_size': 256, 'learn_every': 40, 'gamma': 0.9829738144511397, 'tau': 0.0020294233563625057, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:43,985][0m Trial 34 failed with value nan.[0m
+Trial 35 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,008][0m Trial 35 failed with parameters: {'H': 0.06900419507854504, 'decay_rate': 0.9888419806369607, 'alpha': 2.6324138529731523e-05, 'beta': 0.00035622839911384423, 'batch_size': 512, 'learn_every': 80, 'gamma': 0.9043899808548662, 'tau': 0.03994835884089409, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,008][0m Trial 35 failed with value nan.[0m
+Trial 36 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,033][0m Trial 36 failed with parameters: {'H': 0.27230749041853025, 'decay_rate': 0.9658876161694714, 'alpha': 1.2723862557370723e-05, 'beta': 5.6993950754874346e-05, 'batch_size': 1024, 'learn_every': 20, 'gamma': 0.986482873514068, 'tau': 0.0012897624410908382, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,033][0m Trial 36 failed with value nan.[0m
+Trial 37 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,055][0m Trial 37 failed with parameters: {'H': 0.0430883256782358, 'decay_rate': 0.9781681346644234, 'alpha': 0.00010403349183080495, 'beta': 0.0004888181656184467, 'batch_size': 1024, 'learn_every': 5, 'gamma': 0.9198671528852098, 'tau': 0.00952228780273802, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,055][0m Trial 37 failed with value nan.[0m
+Trial 38 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,077][0m Trial 38 failed with parameters: {'H': 0.11074513936766239, 'decay_rate': 0.9753086927264244, 'alpha': 9.545842639482239e-06, 'beta': 0.00025451356741919463, 'batch_size': 512, 'learn_every': 5, 'gamma': 0.9832571564779168, 'tau': 0.00745260839075105, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,077][0m Trial 38 failed with value nan.[0m
+Trial 39 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,101][0m Trial 39 failed with parameters: {'H': 0.15342142363337244, 'decay_rate': 0.9808713643918491, 'alpha': 8.455778684377642e-05, 'beta': 7.420416016076025e-05, 'batch_size': 128, 'learn_every': 5, 'gamma': 0.9279427930500059, 'tau': 0.01682846290912669, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,101][0m Trial 39 failed with value nan.[0m
+Trial 40 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,122][0m Trial 40 failed with parameters: {'H': 0.024208556535868613, 'decay_rate': 0.986679627378685, 'alpha': 0.0002554815488891167, 'beta': 0.0004149066531920803, 'batch_size': 128, 'learn_every': 40, 'gamma': 0.9217235840440385, 'tau': 0.002923007413412044, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,122][0m Trial 40 failed with value nan.[0m
+Trial 41 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,142][0m Trial 41 failed with parameters: {'H': 0.02128232806998582, 'decay_rate': 0.9568302107006913, 'alpha': 3.2899982006234336e-05, 'beta': 5.2886970242214806e-05, 'batch_size': 1024, 'learn_every': 10, 'gamma': 0.9588852720503253, 'tau': 0.038103474661356315, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,142][0m Trial 41 failed with value nan.[0m
+Trial 42 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,164][0m Trial 42 failed with parameters: {'H': 0.06138578177397772, 'decay_rate': 0.9784260287773271, 'alpha': 5.030669560368944e-05, 'beta': 0.00011054752733872443, 'batch_size': 512, 'learn_every': 20, 'gamma': 0.9111581605216909, 'tau': 0.02316253837653119, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,164][0m Trial 42 failed with value nan.[0m
+Trial 43 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,185][0m Trial 43 failed with parameters: {'H': 0.04591124866789982, 'decay_rate': 0.9576000219185338, 'alpha': 0.00011589054740117455, 'beta': 0.0002741968678861354, 'batch_size': 256, 'learn_every': 10, 'gamma': 0.9151220959829715, 'tau': 0.016028105017829714, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,185][0m Trial 43 failed with value nan.[0m
+Trial 44 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,205][0m Trial 44 failed with parameters: {'H': 0.04946248693368077, 'decay_rate': 0.9577214140523307, 'alpha': 0.00040224824240642963, 'beta': 0.00013707440528275326, 'batch_size': 128, 'learn_every': 80, 'gamma': 0.974229890821734, 'tau': 0.04178941679990342, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,205][0m Trial 44 failed with value nan.[0m
+Trial 45 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,225][0m Trial 45 failed with parameters: {'H': 0.2644350633034934, 'decay_rate': 0.9776804105228653, 'alpha': 0.00045214770492496765, 'beta': 0.00020534245406559368, 'batch_size': 128, 'learn_every': 10, 'gamma': 0.98141711128162, 'tau': 0.002094749100701506, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,225][0m Trial 45 failed with value nan.[0m
+Trial 46 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,245][0m Trial 46 failed with parameters: {'H': 0.2859299019328855, 'decay_rate': 0.9507075027974711, 'alpha': 4.440389602469136e-05, 'beta': 0.0004592301537819241, 'batch_size': 512, 'learn_every': 10, 'gamma': 0.9794863027493809, 'tau': 0.0010396154730734316, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,245][0m Trial 46 failed with value nan.[0m
+Trial 47 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,269][0m Trial 47 failed with parameters: {'H': 0.15869723046472162, 'decay_rate': 0.9770270741551115, 'alpha': 5.367108728800392e-06, 'beta': 9.419334740280724e-05, 'batch_size': 128, 'learn_every': 5, 'gamma': 0.9856472060316102, 'tau': 0.00362423329955707, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,269][0m Trial 47 failed with value nan.[0m
+Trial 48 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,289][0m Trial 48 failed with parameters: {'H': 0.2717640475330597, 'decay_rate': 0.9599568169326289, 'alpha': 0.00033991905131119503, 'beta': 0.0003161019829719445, 'batch_size': 512, 'learn_every': 40, 'gamma': 0.9436669822415366, 'tau': 0.04594634346173253, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,289][0m Trial 48 failed with value nan.[0m
+Trial 49 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,310][0m Trial 49 failed with parameters: {'H': 0.07027477808007093, 'decay_rate': 0.9820234294106364, 'alpha': 8.05332601607248e-06, 'beta': 8.633632497488661e-05, 'batch_size': 512, 'learn_every': 80, 'gamma': 0.919998117000118, 'tau': 0.0005967352451600337, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,310][0m Trial 49 failed with value nan.[0m
+Trial 50 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,331][0m Trial 50 failed with parameters: {'H': 0.21801201913254903, 'decay_rate': 0.9633112319897442, 'alpha': 3.43684765652629e-05, 'beta': 7.192306925444413e-05, 'batch_size': 256, 'learn_every': 20, 'gamma': 0.9096887337161638, 'tau': 0.015140648918601623, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,331][0m Trial 50 failed with value nan.[0m
+Trial 51 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,350][0m Trial 51 failed with parameters: {'H': 0.027949028474116035, 'decay_rate': 0.9797867157258378, 'alpha': 5.083919633145526e-05, 'beta': 0.0001468874738780852, 'batch_size': 128, 'learn_every': 10, 'gamma': 0.9103254592478577, 'tau': 0.039516041812818016, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,350][0m Trial 51 failed with value nan.[0m
+Trial 52 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,369][0m Trial 52 failed with parameters: {'H': 0.06554659990613869, 'decay_rate': 0.9813513913184232, 'alpha': 0.0001637813877733395, 'beta': 0.0001755265943610567, 'batch_size': 128, 'learn_every': 5, 'gamma': 0.9259927094718352, 'tau': 0.0023955890499681083, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,369][0m Trial 52 failed with value nan.[0m
+Trial 53 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,388][0m Trial 53 failed with parameters: {'H': 0.028076910671733808, 'decay_rate': 0.9663720028386323, 'alpha': 0.0002677482221650322, 'beta': 0.0002304752668333332, 'batch_size': 128, 'learn_every': 40, 'gamma': 0.9275894966473647, 'tau': 0.0032048330827926515, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,388][0m Trial 53 failed with value nan.[0m
+Trial 54 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,407][0m Trial 54 failed with parameters: {'H': 0.02648037182032376, 'decay_rate': 0.9955926377896412, 'alpha': 0.00015611639542242056, 'beta': 0.00018144832967673018, 'batch_size': 256, 'learn_every': 10, 'gamma': 0.9450547098356757, 'tau': 0.00964106304956688, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,407][0m Trial 54 failed with value nan.[0m
+Trial 55 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,438][0m Trial 55 failed with parameters: {'H': 0.03329407717634597, 'decay_rate': 0.9726575081221968, 'alpha': 4.5758165716233756e-05, 'beta': 6.401458728137635e-05, 'batch_size': 512, 'learn_every': 10, 'gamma': 0.9392815798695593, 'tau': 0.002694151574408715, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,438][0m Trial 55 failed with value nan.[0m
+Trial 56 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,459][0m Trial 56 failed with parameters: {'H': 0.06458431409664989, 'decay_rate': 0.9889335033237816, 'alpha': 0.000374696648830781, 'beta': 7.829870257016459e-05, 'batch_size': 128, 'learn_every': 20, 'gamma': 0.9790738255520887, 'tau': 0.03789761650214412, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,459][0m Trial 56 failed with value nan.[0m
+Trial 57 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,480][0m Trial 57 failed with parameters: {'H': 0.04901571749143297, 'decay_rate': 0.9771070748361393, 'alpha': 8.581252301160778e-05, 'beta': 6.838673148973136e-05, 'batch_size': 128, 'learn_every': 40, 'gamma': 0.9781589223172661, 'tau': 0.006215271947108009, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,480][0m Trial 57 failed with value nan.[0m
+Trial 58 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,502][0m Trial 58 failed with parameters: {'H': 0.021201704780702466, 'decay_rate': 0.9784207022155089, 'alpha': 0.00037692233330729167, 'beta': 0.00020948841360074607, 'batch_size': 1024, 'learn_every': 40, 'gamma': 0.9679764428686528, 'tau': 0.0005690043591761262, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,502][0m Trial 58 failed with value nan.[0m
+Trial 59 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,523][0m Trial 59 failed with parameters: {'H': 0.09457427316582849, 'decay_rate': 0.974161273254916, 'alpha': 1.8178829699040095e-05, 'beta': 0.0001387638259174463, 'batch_size': 1024, 'learn_every': 40, 'gamma': 0.9913774859374512, 'tau': 0.0014322551060013619, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,523][0m Trial 59 failed with value nan.[0m
+Trial 60 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,545][0m Trial 60 failed with parameters: {'H': 0.05467541727008755, 'decay_rate': 0.9994317472054124, 'alpha': 0.00027315349380410166, 'beta': 7.926619576405356e-05, 'batch_size': 128, 'learn_every': 20, 'gamma': 0.9681614303419863, 'tau': 0.005393215421346446, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,545][0m Trial 60 failed with value nan.[0m
+Trial 61 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,565][0m Trial 61 failed with parameters: {'H': 0.1375380935990591, 'decay_rate': 0.9596215158697152, 'alpha': 0.0002489773252483411, 'beta': 6.58468233833797e-05, 'batch_size': 256, 'learn_every': 5, 'gamma': 0.915078302095301, 'tau': 0.005868914761991482, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,565][0m Trial 61 failed with value nan.[0m
+Trial 62 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,584][0m Trial 62 failed with parameters: {'H': 0.03299926163138048, 'decay_rate': 0.9833760033683232, 'alpha': 0.000461567015761522, 'beta': 0.0001430485180064906, 'batch_size': 256, 'learn_every': 80, 'gamma': 0.9521944293419107, 'tau': 0.0014565619515735679, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,584][0m Trial 62 failed with value nan.[0m
+Trial 63 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,603][0m Trial 63 failed with parameters: {'H': 0.0630374612118816, 'decay_rate': 0.9891985977718973, 'alpha': 2.0596133859876218e-05, 'beta': 0.00021909030542821578, 'batch_size': 512, 'learn_every': 10, 'gamma': 0.9134599731650007, 'tau': 0.0012239378301225202, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,603][0m Trial 63 failed with value nan.[0m
+Trial 64 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,621][0m Trial 64 failed with parameters: {'H': 0.05094139553420057, 'decay_rate': 0.9750111965853344, 'alpha': 0.00010055755716631114, 'beta': 0.00037772525642535093, 'batch_size': 512, 'learn_every': 40, 'gamma': 0.9763302859125441, 'tau': 0.0012346142023585585, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,621][0m Trial 64 failed with value nan.[0m
+Trial 65 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,641][0m Trial 65 failed with parameters: {'H': 0.052941056507215915, 'decay_rate': 0.9847015808854319, 'alpha': 0.0004868472891547712, 'beta': 0.00016781250587671035, 'batch_size': 512, 'learn_every': 20, 'gamma': 0.9920981543010229, 'tau': 0.04721517261516665, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,641][0m Trial 65 failed with value nan.[0m
+Trial 66 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,664][0m Trial 66 failed with parameters: {'H': 0.08724915388673742, 'decay_rate': 0.9896087396749262, 'alpha': 6.7371905297003585e-06, 'beta': 0.00042906985228095433, 'batch_size': 256, 'learn_every': 10, 'gamma': 0.9947651430838078, 'tau': 0.0043404138761227295, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,664][0m Trial 66 failed with value nan.[0m
+Trial 67 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,683][0m Trial 67 failed with parameters: {'H': 0.08883811154703555, 'decay_rate': 0.9556717391639535, 'alpha': 3.4673818273354794e-05, 'beta': 0.00035562322287332733, 'batch_size': 512, 'learn_every': 20, 'gamma': 0.981131770011157, 'tau': 0.009192952387652793, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,684][0m Trial 67 failed with value nan.[0m
+Trial 68 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,703][0m Trial 68 failed with parameters: {'H': 0.07159165196409728, 'decay_rate': 0.971304169744171, 'alpha': 9.88818689087072e-06, 'beta': 0.00014558443046153792, 'batch_size': 128, 'learn_every': 80, 'gamma': 0.9796033007151468, 'tau': 0.017082330283446166, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,704][0m Trial 68 failed with value nan.[0m
+Trial 69 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,723][0m Trial 69 failed with parameters: {'H': 0.09830765681536442, 'decay_rate': 0.9635644858403334, 'alpha': 0.0003977621046194927, 'beta': 0.00010219924134405244, 'batch_size': 512, 'learn_every': 5, 'gamma': 0.9887395125456323, 'tau': 0.00405556596756184, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,723][0m Trial 69 failed with value nan.[0m
+Trial 70 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,743][0m Trial 70 failed with parameters: {'H': 0.10702406500210618, 'decay_rate': 0.9990267551912108, 'alpha': 9.097862240555617e-05, 'beta': 9.285482775589242e-05, 'batch_size': 1024, 'learn_every': 10, 'gamma': 0.9825000094048015, 'tau': 0.00101427720771816, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,743][0m Trial 70 failed with value nan.[0m
+Trial 71 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,763][0m Trial 71 failed with parameters: {'H': 0.020971943055987027, 'decay_rate': 0.9682119808957733, 'alpha': 0.00034867911243818806, 'beta': 0.00011270708819075792, 'batch_size': 256, 'learn_every': 5, 'gamma': 0.9843352498227714, 'tau': 0.0016847674909587682, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,763][0m Trial 71 failed with value nan.[0m
+Trial 72 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,782][0m Trial 72 failed with parameters: {'H': 0.06066951159673646, 'decay_rate': 0.972229620770086, 'alpha': 1.0215695684108534e-05, 'beta': 0.00014185871060609978, 'batch_size': 1024, 'learn_every': 10, 'gamma': 0.9298350016526056, 'tau': 0.000686001636366188, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,782][0m Trial 72 failed with value nan.[0m
+Trial 73 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,801][0m Trial 73 failed with parameters: {'H': 0.19031779405719412, 'decay_rate': 0.9636708240635563, 'alpha': 5.7671525097253924e-05, 'beta': 0.00041494127412033434, 'batch_size': 1024, 'learn_every': 80, 'gamma': 0.9593694797713251, 'tau': 0.0035629676160802157, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,801][0m Trial 73 failed with value nan.[0m
+Trial 74 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,819][0m Trial 74 failed with parameters: {'H': 0.08929012420351885, 'decay_rate': 0.9947172844280103, 'alpha': 0.00011062965789407659, 'beta': 0.00012537923776184402, 'batch_size': 128, 'learn_every': 80, 'gamma': 0.9306138906044505, 'tau': 0.0030018015687282517, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,820][0m Trial 74 failed with value nan.[0m
+Trial 75 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,840][0m Trial 75 failed with parameters: {'H': 0.0625926667814341, 'decay_rate': 0.9819812505575414, 'alpha': 9.8068919159689e-06, 'beta': 0.0001387194172625942, 'batch_size': 128, 'learn_every': 40, 'gamma': 0.9479797823192695, 'tau': 0.0073132656675038875, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,840][0m Trial 75 failed with value nan.[0m
+Trial 76 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,858][0m Trial 76 failed with parameters: {'H': 0.027665191946394208, 'decay_rate': 0.9799410429379767, 'alpha': 0.00042683834795561736, 'beta': 0.00011655213113457453, 'batch_size': 256, 'learn_every': 10, 'gamma': 0.9676454548790991, 'tau': 0.001174179772858241, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,858][0m Trial 76 failed with value nan.[0m
+Trial 77 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,878][0m Trial 77 failed with parameters: {'H': 0.04500412139747448, 'decay_rate': 0.9905721424128844, 'alpha': 1.9866062415277295e-05, 'beta': 0.00015529205631704116, 'batch_size': 1024, 'learn_every': 5, 'gamma': 0.9453254191243098, 'tau': 0.0010228602285101902, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,878][0m Trial 77 failed with value nan.[0m
+Trial 78 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,897][0m Trial 78 failed with parameters: {'H': 0.20847536273093648, 'decay_rate': 0.9705968541160255, 'alpha': 9.778096472374482e-06, 'beta': 0.00036212332494398345, 'batch_size': 1024, 'learn_every': 5, 'gamma': 0.9058428833341751, 'tau': 0.0027615288678469944, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,897][0m Trial 78 failed with value nan.[0m
+Trial 79 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,917][0m Trial 79 failed with parameters: {'H': 0.16500261030599012, 'decay_rate': 0.9956487278173861, 'alpha': 1.1430756813329493e-05, 'beta': 0.00032546347168522827, 'batch_size': 512, 'learn_every': 80, 'gamma': 0.9356429693049528, 'tau': 0.007367952569426591, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,917][0m Trial 79 failed with value nan.[0m
+Trial 80 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,936][0m Trial 80 failed with parameters: {'H': 0.08778638946058695, 'decay_rate': 0.98650300393796, 'alpha': 0.00029494718462491436, 'beta': 9.070686617583753e-05, 'batch_size': 1024, 'learn_every': 40, 'gamma': 0.9611388966405174, 'tau': 0.0013335553907100248, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,937][0m Trial 80 failed with value nan.[0m
+Trial 81 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,954][0m Trial 81 failed with parameters: {'H': 0.05256612251177311, 'decay_rate': 0.9642342121711238, 'alpha': 0.00014472508432062048, 'beta': 8.134946624203563e-05, 'batch_size': 128, 'learn_every': 40, 'gamma': 0.9804900664671795, 'tau': 0.00687358854650239, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,954][0m Trial 81 failed with value nan.[0m
+Trial 82 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,973][0m Trial 82 failed with parameters: {'H': 0.03109640552359093, 'decay_rate': 0.991555519111648, 'alpha': 0.00045543583469576077, 'beta': 0.00042689188205400605, 'batch_size': 256, 'learn_every': 20, 'gamma': 0.9616636638990492, 'tau': 0.0005970950260379651, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,973][0m Trial 82 failed with value nan.[0m
+Trial 83 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:44,991][0m Trial 83 failed with parameters: {'H': 0.06863437198110038, 'decay_rate': 0.9992659632539023, 'alpha': 8.785292211302955e-05, 'beta': 0.0001947489604726223, 'batch_size': 1024, 'learn_every': 80, 'gamma': 0.992155796526823, 'tau': 0.003587408622080305, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:44,991][0m Trial 83 failed with value nan.[0m
+Trial 84 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,009][0m Trial 84 failed with parameters: {'H': 0.13712695956371035, 'decay_rate': 0.965898076184668, 'alpha': 5.1790785656357494e-05, 'beta': 0.0001391497942962818, 'batch_size': 128, 'learn_every': 40, 'gamma': 0.9690615839420029, 'tau': 0.005033965994899512, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,009][0m Trial 84 failed with value nan.[0m
+Trial 85 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,027][0m Trial 85 failed with parameters: {'H': 0.09028138502144933, 'decay_rate': 0.9685000760239248, 'alpha': 6.731764786738174e-05, 'beta': 0.0004940251240850376, 'batch_size': 1024, 'learn_every': 5, 'gamma': 0.9226389617326551, 'tau': 0.0053383382196432955, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,027][0m Trial 85 failed with value nan.[0m
+Trial 86 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,050][0m Trial 86 failed with parameters: {'H': 0.1808450023938855, 'decay_rate': 0.9503952319287358, 'alpha': 3.455576663217907e-05, 'beta': 0.0002166545489415833, 'batch_size': 1024, 'learn_every': 20, 'gamma': 0.9074462788937586, 'tau': 0.01404813945219992, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,050][0m Trial 86 failed with value nan.[0m
+Trial 87 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,070][0m Trial 87 failed with parameters: {'H': 0.13851571692246456, 'decay_rate': 0.9799431578593675, 'alpha': 4.8813908362890855e-05, 'beta': 7.891292479718534e-05, 'batch_size': 1024, 'learn_every': 5, 'gamma': 0.9913309531669012, 'tau': 0.009855348773922749, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,070][0m Trial 87 failed with value nan.[0m
+Trial 88 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,090][0m Trial 88 failed with parameters: {'H': 0.024028300865328422, 'decay_rate': 0.9661975063677294, 'alpha': 5.707631906021589e-06, 'beta': 0.0002287964134555548, 'batch_size': 256, 'learn_every': 20, 'gamma': 0.9044603017162669, 'tau': 0.03274129924782651, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,090][0m Trial 88 failed with value nan.[0m
+Trial 89 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,109][0m Trial 89 failed with parameters: {'H': 0.07338853931970359, 'decay_rate': 0.9508430911364474, 'alpha': 1.9801117616649393e-05, 'beta': 0.00016008792826077112, 'batch_size': 512, 'learn_every': 20, 'gamma': 0.9054997973229606, 'tau': 0.0019458985532085664, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,109][0m Trial 89 failed with value nan.[0m
+Trial 90 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,128][0m Trial 90 failed with parameters: {'H': 0.1345323062732809, 'decay_rate': 0.9880311443671693, 'alpha': 0.00022410563209180316, 'beta': 8.118854863138922e-05, 'batch_size': 1024, 'learn_every': 5, 'gamma': 0.9362801311329468, 'tau': 0.020235925773566338, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,128][0m Trial 90 failed with value nan.[0m
+Trial 91 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,146][0m Trial 91 failed with parameters: {'H': 0.09469173542645155, 'decay_rate': 0.9637234773024592, 'alpha': 1.4389819627212726e-05, 'beta': 6.301358762750273e-05, 'batch_size': 256, 'learn_every': 5, 'gamma': 0.9780266524631778, 'tau': 0.0008140430195220533, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,146][0m Trial 91 failed with value nan.[0m
+Trial 92 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,164][0m Trial 92 failed with parameters: {'H': 0.12391311390502506, 'decay_rate': 0.9650497712192868, 'alpha': 8.40105237428391e-06, 'beta': 5.429142023336244e-05, 'batch_size': 1024, 'learn_every': 10, 'gamma': 0.9700462060703094, 'tau': 0.014870153168514245, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,164][0m Trial 92 failed with value nan.[0m
+Trial 93 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,182][0m Trial 93 failed with parameters: {'H': 0.09542975252018682, 'decay_rate': 0.9886104268882622, 'alpha': 0.0004340441506210832, 'beta': 0.00024422218424079845, 'batch_size': 128, 'learn_every': 5, 'gamma': 0.9113420831802413, 'tau': 0.012085072406619995, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,182][0m Trial 93 failed with value nan.[0m
+Trial 94 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,201][0m Trial 94 failed with parameters: {'H': 0.09606261509137215, 'decay_rate': 0.97751933799452, 'alpha': 5.2346315600039675e-06, 'beta': 0.00017175482604423495, 'batch_size': 128, 'learn_every': 5, 'gamma': 0.9810485140625282, 'tau': 0.0008698845315911357, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,201][0m Trial 94 failed with value nan.[0m
+Trial 95 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,219][0m Trial 95 failed with parameters: {'H': 0.24182403494980118, 'decay_rate': 0.979454919503047, 'alpha': 4.2104014162603404e-05, 'beta': 0.0002887187551891021, 'batch_size': 1024, 'learn_every': 5, 'gamma': 0.9712514003695856, 'tau': 0.0006484326591737536, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,219][0m Trial 95 failed with value nan.[0m
+Trial 96 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,241][0m Trial 96 failed with parameters: {'H': 0.05380561703759218, 'decay_rate': 0.9959972695232996, 'alpha': 0.00045931882664109163, 'beta': 5.515758011715942e-05, 'batch_size': 128, 'learn_every': 10, 'gamma': 0.9125185494058303, 'tau': 0.006003130648501195, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,242][0m Trial 96 failed with value nan.[0m
+Trial 97 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,260][0m Trial 97 failed with parameters: {'H': 0.03889197243644278, 'decay_rate': 0.9653161466664703, 'alpha': 3.743109167478561e-05, 'beta': 6.787179945247376e-05, 'batch_size': 128, 'learn_every': 10, 'gamma': 0.9860972967854209, 'tau': 0.0008019943639472581, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,260][0m Trial 97 failed with value nan.[0m
+Trial 98 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,279][0m Trial 98 failed with parameters: {'H': 0.09035781147090173, 'decay_rate': 0.9754775618315084, 'alpha': 2.3367941700337926e-05, 'beta': 0.0001458351308531802, 'batch_size': 256, 'learn_every': 40, 'gamma': 0.9195153014551783, 'tau': 0.0010446511594973205, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,279][0m Trial 98 failed with value nan.[0m
+Trial 99 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,299][0m Trial 99 failed with parameters: {'H': 0.03451517771067039, 'decay_rate': 0.9621244634707884, 'alpha': 3.716526519333506e-05, 'beta': 8.606932128538895e-05, 'batch_size': 128, 'learn_every': 40, 'gamma': 0.943533113049308, 'tau': 0.00771286325867338, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,299][0m Trial 99 failed with value nan.[0m
+Trial 100 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,318][0m Trial 100 failed with parameters: {'H': 0.03929831562642059, 'decay_rate': 0.992588806658234, 'alpha': 4.7347551768257724e-05, 'beta': 7.948378720205425e-05, 'batch_size': 256, 'learn_every': 80, 'gamma': 0.9497911725659175, 'tau': 0.007997814614476292, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,318][0m Trial 100 failed with value nan.[0m
+Trial 101 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,337][0m Trial 101 failed with parameters: {'H': 0.0539084864308931, 'decay_rate': 0.9767949361249075, 'alpha': 5.987189336102763e-06, 'beta': 0.00016670490371733013, 'batch_size': 256, 'learn_every': 40, 'gamma': 0.9732813580076382, 'tau': 0.002423508578882333, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,337][0m Trial 101 failed with value nan.[0m
+Trial 102 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,356][0m Trial 102 failed with parameters: {'H': 0.07885827539604018, 'decay_rate': 0.9747828642485294, 'alpha': 0.00020066743456224876, 'beta': 7.055938260720544e-05, 'batch_size': 1024, 'learn_every': 40, 'gamma': 0.9433968504018029, 'tau': 0.0019982641771090753, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,356][0m Trial 102 failed with value nan.[0m
+Trial 103 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,373][0m Trial 103 failed with parameters: {'H': 0.1766528433838634, 'decay_rate': 0.9592077031199332, 'alpha': 0.0001228234651995112, 'beta': 0.0001358856158612594, 'batch_size': 512, 'learn_every': 10, 'gamma': 0.9496900440026617, 'tau': 0.0007225464466533113, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,373][0m Trial 103 failed with value nan.[0m
+Trial 104 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,391][0m Trial 104 failed with parameters: {'H': 0.06133342643811662, 'decay_rate': 0.9825900799258994, 'alpha': 8.087683551852057e-06, 'beta': 0.00047672519935401626, 'batch_size': 256, 'learn_every': 80, 'gamma': 0.9819911523690366, 'tau': 0.0010629259700676778, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,392][0m Trial 104 failed with value nan.[0m
+Trial 105 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,409][0m Trial 105 failed with parameters: {'H': 0.03765463785240435, 'decay_rate': 0.9674443343658938, 'alpha': 0.00039106289529095895, 'beta': 0.00019308005326940943, 'batch_size': 512, 'learn_every': 80, 'gamma': 0.9408811251991979, 'tau': 0.000630866914047629, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,409][0m Trial 105 failed with value nan.[0m
+Trial 106 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,427][0m Trial 106 failed with parameters: {'H': 0.05126278485807773, 'decay_rate': 0.9926235678432513, 'alpha': 2.501889018102096e-05, 'beta': 9.533110895810602e-05, 'batch_size': 128, 'learn_every': 80, 'gamma': 0.9069111736905741, 'tau': 0.0014281207016455185, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,427][0m Trial 106 failed with value nan.[0m
+Trial 107 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,446][0m Trial 107 failed with parameters: {'H': 0.027860273336136037, 'decay_rate': 0.9735620729197576, 'alpha': 0.0003716804833895784, 'beta': 0.0001267464002497457, 'batch_size': 512, 'learn_every': 40, 'gamma': 0.9224374566436085, 'tau': 0.006448051856305246, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,446][0m Trial 107 failed with value nan.[0m
+Trial 108 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,465][0m Trial 108 failed with parameters: {'H': 0.04852644792760706, 'decay_rate': 0.9804677427950252, 'alpha': 8.355558632656412e-06, 'beta': 0.0004318383446170905, 'batch_size': 256, 'learn_every': 20, 'gamma': 0.9077435744414372, 'tau': 0.002211331610069475, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,465][0m Trial 108 failed with value nan.[0m
+Trial 109 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,484][0m Trial 109 failed with parameters: {'H': 0.12713089364311425, 'decay_rate': 0.9881030192972428, 'alpha': 0.00012638972511847183, 'beta': 8.190253673529467e-05, 'batch_size': 256, 'learn_every': 5, 'gamma': 0.9434172672691836, 'tau': 0.031227393083169647, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,484][0m Trial 109 failed with value nan.[0m
+Trial 110 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,504][0m Trial 110 failed with parameters: {'H': 0.02391604367587056, 'decay_rate': 0.9705548903883665, 'alpha': 5.534780558912005e-06, 'beta': 7.88918818952035e-05, 'batch_size': 1024, 'learn_every': 40, 'gamma': 0.9868305457465556, 'tau': 0.005937376131724129, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,504][0m Trial 110 failed with value nan.[0m
+Trial 111 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,523][0m Trial 111 failed with parameters: {'H': 0.05649924384400781, 'decay_rate': 0.9935358579763871, 'alpha': 0.0003550893273756334, 'beta': 6.936023529443856e-05, 'batch_size': 128, 'learn_every': 20, 'gamma': 0.9118800351646063, 'tau': 0.0047528656921819205, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,523][0m Trial 111 failed with value nan.[0m
+Trial 112 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,542][0m Trial 112 failed with parameters: {'H': 0.1938593295309009, 'decay_rate': 0.9691520808513332, 'alpha': 1.5781870413357994e-05, 'beta': 9.828832384175089e-05, 'batch_size': 128, 'learn_every': 40, 'gamma': 0.9518815938322963, 'tau': 0.002412713757985592, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,542][0m Trial 112 failed with value nan.[0m
+Trial 113 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,560][0m Trial 113 failed with parameters: {'H': 0.17535750463107722, 'decay_rate': 0.9807651259172245, 'alpha': 2.6458865548871816e-05, 'beta': 0.00025767636556149094, 'batch_size': 1024, 'learn_every': 20, 'gamma': 0.9182668808670946, 'tau': 0.000601995080955357, 'ensemble_policy': 2} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,560][0m Trial 113 failed with value nan.[0m
+Trial 114 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,577][0m Trial 114 failed with parameters: {'H': 0.2265646925411893, 'decay_rate': 0.9661065949728768, 'alpha': 5.71390521369586e-05, 'beta': 0.00032428406740399974, 'batch_size': 1024, 'learn_every': 40, 'gamma': 0.9813776744504621, 'tau': 0.044074032410661164, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,578][0m Trial 114 failed with value nan.[0m
+Trial 115 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,595][0m Trial 115 failed with parameters: {'H': 0.07463876193360744, 'decay_rate': 0.9683402316359494, 'alpha': 1.1582620167772229e-05, 'beta': 0.0003613591061959777, 'batch_size': 256, 'learn_every': 5, 'gamma': 0.9372949050521598, 'tau': 0.010807934211408285, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,595][0m Trial 115 failed with value nan.[0m
+Trial 116 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,613][0m Trial 116 failed with parameters: {'H': 0.05966337910873149, 'decay_rate': 0.9917767934875305, 'alpha': 2.2377887620526622e-05, 'beta': 0.00023484863283181157, 'batch_size': 128, 'learn_every': 40, 'gamma': 0.9629712059539937, 'tau': 0.002177052240489274, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,613][0m Trial 116 failed with value nan.[0m
+Trial 117 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,631][0m Trial 117 failed with parameters: {'H': 0.14016342320263994, 'decay_rate': 0.9597488128525686, 'alpha': 1.601550408399359e-05, 'beta': 0.00010407633858557288, 'batch_size': 256, 'learn_every': 40, 'gamma': 0.9143400212347681, 'tau': 0.002310263666708106, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,631][0m Trial 117 failed with value nan.[0m
+Trial 118 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,650][0m Trial 118 failed with parameters: {'H': 0.03631094134819977, 'decay_rate': 0.9952123443065681, 'alpha': 0.00019105716679440949, 'beta': 0.0002285851534705159, 'batch_size': 256, 'learn_every': 20, 'gamma': 0.994963491680328, 'tau': 0.014535306920326651, 'ensemble_policy': 1} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,650][0m Trial 118 failed with value nan.[0m
+Trial 119 failed: train() got an unexpected keyword argument 'ensemble_policy'
+[33m[W 2025-07-04 12:42:45,669][0m Trial 119 failed with parameters: {'H': 0.1281069587723703, 'decay_rate': 0.9731187212667307, 'alpha': 0.0002102715567200897, 'beta': 0.00013998341478810912, 'batch_size': 512, 'learn_every': 80, 'gamma': 0.9396153954933936, 'tau': 0.004782726568840213, 'ensemble_policy': 3} because of the following error: The value nan is not acceptable.[0m
+[33m[W 2025-07-04 12:42:45,669][0m Trial 119 failed with value nan.[0m
+
+Number of finished trials: 120
+
+Best trial:
+Traceback (most recent call last):
+  File "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/tuning.py", line 154, in <module>
+    trial = study.best_trial
+            ^^^^^^^^^^^^^^^^
+  File "/Users/lilshoe/miniconda3/envs/mldl/lib/python3.11/site-packages/optuna/study/study.py", line 155, in best_trial
+    return self._get_best_trial(deepcopy=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lilshoe/miniconda3/envs/mldl/lib/python3.11/site-packages/optuna/study/study.py", line 307, in _get_best_trial
+    best_trial = self._storage.get_best_trial(self._study_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lilshoe/miniconda3/envs/mldl/lib/python3.11/site-packages/optuna/storages/_cached_storage.py", line 180, in get_best_trial
+    return self._backend.get_best_trial(study_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lilshoe/miniconda3/envs/mldl/lib/python3.11/site-packages/optuna/storages/_rdb/storage.py", line 914, in get_best_trial
+    trial_id = models.TrialModel.find_max_value_trial_id(study_id, 0, session)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lilshoe/miniconda3/envs/mldl/lib/python3.11/site-packages/optuna/storages/_rdb/models.py", line 211, in find_max_value_trial_id
+    raise ValueError(NOT_FOUND_MSG)
+ValueError: Record does not exist.

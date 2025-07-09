@@ -1,0 +1,23 @@
+2025-07-04 12:42:42,414 INFO    MainThread:38373 [wandb_setup.py:_flush():70] Current SDK version is 0.19.11
+2025-07-04 12:42:42,415 INFO    MainThread:38373 [wandb_setup.py:_flush():70] Configure stats pid to 38373
+2025-07-04 12:42:42,415 INFO    MainThread:38373 [wandb_setup.py:_flush():70] Loading settings from /Users/lilshoe/.config/wandb/settings
+2025-07-04 12:42:42,415 INFO    MainThread:38373 [wandb_setup.py:_flush():70] Loading settings from /Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/wandb/settings
+2025-07-04 12:42:42,415 INFO    MainThread:38373 [wandb_setup.py:_flush():70] Loading settings from environment variables
+2025-07-04 12:42:42,415 INFO    MainThread:38373 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/wandb/run-20250704_124242-3law5xt0/logs/debug.log
+2025-07-04 12:42:42,415 INFO    MainThread:38373 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/wandb/run-20250704_124242-3law5xt0/logs/debug-internal.log
+2025-07-04 12:42:42,415 INFO    MainThread:38373 [wandb_init.py:init():852] calling init triggers
+2025-07-04 12:42:42,416 INFO    MainThread:38373 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'n_trials': 120, 'n_episodes': 800, 'n_eval_episodes': 10, '_wandb': {}}
+2025-07-04 12:42:42,416 INFO    MainThread:38373 [wandb_init.py:init():893] starting backend
+2025-07-04 12:42:42,416 INFO    MainThread:38373 [wandb_init.py:init():897] sending inform_init request
+2025-07-04 12:42:42,447 INFO    MainThread:38373 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-07-04 12:42:42,448 INFO    MainThread:38373 [wandb_init.py:init():907] backend started and connected
+2025-07-04 12:42:42,449 INFO    MainThread:38373 [wandb_init.py:init():1005] updated telemetry
+2025-07-04 12:42:42,467 INFO    MainThread:38373 [wandb_init.py:init():1029] communicating run to backend with 90.0 second timeout
+2025-07-04 12:42:43,006 INFO    MainThread:38373 [wandb_init.py:init():1104] starting run threads in backend
+2025-07-04 12:42:43,034 INFO    MainThread:38373 [wandb_run.py:_console_start():2573] atexit reg
+2025-07-04 12:42:43,035 INFO    MainThread:38373 [wandb_run.py:_redirect():2421] redirect: wrap_raw
+2025-07-04 12:42:43,035 INFO    MainThread:38373 [wandb_run.py:_redirect():2490] Wrapping output streams.
+2025-07-04 12:42:43,035 INFO    MainThread:38373 [wandb_run.py:_redirect():2513] Redirects installed.
+2025-07-04 12:42:43,036 INFO    MainThread:38373 [wandb_init.py:init():1150] run started, returning control to user process
+2025-07-04 12:42:46,316 INFO    MsgRouterThr:38373 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.

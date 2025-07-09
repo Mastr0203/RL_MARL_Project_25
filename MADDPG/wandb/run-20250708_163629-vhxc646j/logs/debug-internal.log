@@ -1,0 +1,16 @@
+{"time":"2025-07-08T16:36:29.428003+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/brian/Reinforcement_learning/Luciano/RL_Multi_Agent/wandb/run-20250708_163629-vhxc646j/logs/debug-core.log"}
+{"time":"2025-07-08T16:36:29.731673+02:00","level":"INFO","msg":"created new stream","id":"vhxc646j"}
+{"time":"2025-07-08T16:36:29.7319+02:00","level":"INFO","msg":"stream: started","id":"vhxc646j"}
+{"time":"2025-07-08T16:36:29.731946+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"vhxc646j"}
+{"time":"2025-07-08T16:36:29.732221+02:00","level":"INFO","msg":"sender: started","stream_id":"vhxc646j"}
+{"time":"2025-07-08T16:36:29.732227+02:00","level":"INFO","msg":"handler: started","stream_id":"vhxc646j"}
+{"time":"2025-07-08T16:36:30.004088+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-08T16:37:52.318842+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-08T16:37:52.319066+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-08T16:37:53.172557+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-08T16:37:53.32679+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 1-3, summary, console lines 37-39","runtime_seconds":0.152961208}],"total_operations":1}}
+{"time":"2025-07-08T16:37:53.450509+02:00","level":"INFO","msg":"stream: closing","id":"vhxc646j"}
+{"time":"2025-07-08T16:37:53.450585+02:00","level":"INFO","msg":"handler: closed","stream_id":"vhxc646j"}
+{"time":"2025-07-08T16:37:53.450587+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vhxc646j"}
+{"time":"2025-07-08T16:37:53.450611+02:00","level":"INFO","msg":"sender: closed","stream_id":"vhxc646j"}
+{"time":"2025-07-08T16:37:53.450938+02:00","level":"INFO","msg":"stream: closed","id":"vhxc646j"}

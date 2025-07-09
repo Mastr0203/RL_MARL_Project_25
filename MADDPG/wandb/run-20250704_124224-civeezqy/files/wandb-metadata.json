@@ -1,0 +1,16 @@
+{
+  "os": "macOS-15.5-arm64-arm-64bit",
+  "python": "CPython 3.11.11",
+  "startedAt": "2025-07-04T10:42:25.000933Z",
+  "program": "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia/tuning.py",
+  "codePath": "tuning.py",
+  "git": {
+    "remote": "https://github.com/LucianoScarpino/RL_Multi_Agent.git",
+    "commit": "ff39d38944560ba8e6567c8baf8237a1d3897f3a"
+  },
+  "email": "cicciomastro42@gmail.com",
+  "root": "/Users/lilshoe/Library/Mobile Documents/com~apple~CloudDocs/Politecnico Torino/Anno 2024-2025/Secondo Semestre/Machine Learning and Deep Learning/Progetto /Project_Codes/MADDPG copia",
+  "host": "MACBOOK-PRO.station",
+  "executable": "/Users/lilshoe/miniconda3/envs/mldl/bin/python",
+  "codePathLocal": "tuning.py"
+}
