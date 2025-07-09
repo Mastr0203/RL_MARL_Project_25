@@ -7,8 +7,9 @@ This repository contains the full implementation of **Project 4 – Reinforcemen
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
+```
 RL_MLDL_2425/
 ├── Tasks/                         # Official course tasks
 │   ├── REINFORCE/                 # REINFORCE with/without baseline
@@ -40,6 +41,7 @@ RL_MLDL_2425/
 │
 ├── README.md
 └── requirements.txt
+```
 
 ---
 
