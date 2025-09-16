@@ -85,7 +85,7 @@ def train(
 
             memory.store_transition(obs,state,actions,reward,obs_,state_,dones, actors_idx)
 
-            if episode_step % learn_every == 0:
+            if total_steps % learn_every == 0:
                 maddpg_agents.learn(memory)
 
             obs = obs_
